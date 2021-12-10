@@ -1,0 +1,28 @@
+Metadata-Version: 1.0
+Name: pssh
+Version: 2.3.1
+Summary: Parallel version of OpenSSH and related tools
+Home-page: http://code.google.com/p/parallel-ssh/
+Author: Andrew McNabb
+Author-email: amcnabb@mcnabbs.org
+License: BSD
+Description: PSSH (Parallel SSH) provides parallel versions of OpenSSH and related tools, including pssh, pscp, prsync, pnuke, and pslurp.  The project includes psshlib which can be used within custom applications.
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Clustering
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration

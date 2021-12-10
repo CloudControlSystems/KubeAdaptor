@@ -1,0 +1,1326 @@
+clusterrole.rbac.authorization.k8s.io/argo-test created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin0 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin1 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin2 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin3 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin4 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin5 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin6 created
+service/resource-usage created
+deployment.apps/resource-usage-deploy created
+configmap/cluster-information created
+:----------
+i:0
+Name:                ligo-task-4nsnq
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:33:02 +0800 (now)
+Progress:            
+:ligo-task-4nsnq
+Workflow 'ligo-task-4nsnq' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:176
+:----------
+i:1
+Name:                ligo-task-kpsr2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:35:58 +0800 (now)
+Progress:            
+:ligo-task-kpsr2
+Workflow 'ligo-task-kpsr2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:150
+:----------
+i:2
+Name:                ligo-task-c89sm
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:38:28 +0800 (now)
+Progress:            
+:ligo-task-c89sm
+Workflow 'ligo-task-c89sm' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:186
+:----------
+i:3
+Name:                ligo-task-znx8z
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:41:34 +0800 (now)
+Progress:            
+:ligo-task-znx8z
+Workflow 'ligo-task-znx8z' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:186
+:----------
+i:4
+Name:                ligo-task-l5w4h
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:44:40 +0800 (now)
+Progress:            
+:ligo-task-l5w4h
+Workflow 'ligo-task-l5w4h' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:172
+:----------
+i:5
+Name:                ligo-task-gk86r
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:47:32 +0800 (now)
+Progress:            
+:ligo-task-gk86r
+Workflow 'ligo-task-gk86r' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:170
+:----------
+i:6
+Name:                ligo-task-xvcw6
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:50:22 +0800 (now)
+Progress:            
+:ligo-task-xvcw6
+Workflow 'ligo-task-xvcw6' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:189
+:----------
+i:7
+Name:                ligo-task-fqvwq
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:53:32 +0800 (now)
+Progress:            
+:ligo-task-fqvwq
+Workflow 'ligo-task-fqvwq' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:182
+:----------
+i:8
+Name:                ligo-task-qprws
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:56:34 +0800 (now)
+Progress:            
+:ligo-task-qprws
+Workflow 'ligo-task-qprws' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:169
+:----------
+i:9
+Name:                ligo-task-68rdw
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 11:59:22 +0800 (now)
+Progress:            
+:ligo-task-68rdw
+Workflow 'ligo-task-68rdw' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:153
+:----------
+i:10
+Name:                ligo-task-d2cq2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:01:55 +0800 (now)
+Progress:            
+:ligo-task-d2cq2
+Workflow 'ligo-task-d2cq2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:173
+:----------
+i:11
+Name:                ligo-task-fpqxj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:04:48 +0800 (now)
+Progress:            
+:ligo-task-fpqxj
+Workflow 'ligo-task-fpqxj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:169
+:----------
+i:12
+Name:                ligo-task-s4qs2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:07:37 +0800 (now)
+Progress:            
+:ligo-task-s4qs2
+Workflow 'ligo-task-s4qs2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:171
+:----------
+i:13
+Name:                ligo-task-qqctb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:10:28 +0800 (1 second ago)
+Progress:            
+:ligo-task-qqctb
+Workflow 'ligo-task-qqctb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:206
+:----------
+i:14
+Name:                ligo-task-sj9jc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:13:54 +0800 (now)
+Progress:            
+:ligo-task-sj9jc
+Workflow 'ligo-task-sj9jc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:194
+:----------
+i:15
+Name:                ligo-task-gsmpm
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:17:08 +0800 (now)
+Progress:            
+:ligo-task-gsmpm
+Workflow 'ligo-task-gsmpm' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:179
+:----------
+i:16
+Name:                ligo-task-c2l75
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:20:07 +0800 (now)
+Progress:            
+:ligo-task-c2l75
+Workflow 'ligo-task-c2l75' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:187
+:----------
+i:17
+Name:                ligo-task-gqzqp
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:23:14 +0800 (now)
+Progress:            
+:ligo-task-gqzqp
+Workflow 'ligo-task-gqzqp' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:180
+:----------
+i:18
+Name:                ligo-task-dp9j8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:26:15 +0800 (now)
+Progress:            
+:ligo-task-dp9j8
+Workflow 'ligo-task-dp9j8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:----------
+i:19
+Name:                ligo-task-8prt7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:29:25 +0800 (now)
+Progress:            
+:ligo-task-8prt7
+Workflow 'ligo-task-8prt7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:181
+:----------
+i:20
+Name:                ligo-task-nnb2g
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:32:26 +0800 (now)
+Progress:            
+:ligo-task-nnb2g
+Workflow 'ligo-task-nnb2g' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:21
+Name:                ligo-task-vw7b4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:35:43 +0800 (now)
+Progress:            
+:ligo-task-vw7b4
+Workflow 'ligo-task-vw7b4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:----------
+i:22
+Name:                ligo-task-hct9q
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:38:54 +0800 (now)
+Progress:            
+:ligo-task-hct9q
+Workflow 'ligo-task-hct9q' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:167
+:----------
+i:23
+Name:                ligo-task-wkjnt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:41:41 +0800 (now)
+Progress:            
+:ligo-task-wkjnt
+Workflow 'ligo-task-wkjnt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:161
+:----------
+i:24
+Name:                ligo-task-hlspb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:44:22 +0800 (now)
+Progress:            
+:ligo-task-hlspb
+Workflow 'ligo-task-hlspb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:159
+:----------
+i:25
+Name:                ligo-task-wvqjg
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:47:01 +0800 (now)
+Progress:            
+:ligo-task-wvqjg
+Workflow 'ligo-task-wvqjg' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:172
+:----------
+i:26
+Name:                ligo-task-7zpwt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:49:53 +0800 (now)
+Progress:            
+:ligo-task-7zpwt
+Workflow 'ligo-task-7zpwt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:167
+:----------
+i:27
+Name:                ligo-task-wl9m5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:52:40 +0800 (now)
+Progress:            
+:ligo-task-wl9m5
+Workflow 'ligo-task-wl9m5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:171
+:----------
+i:28
+Name:                ligo-task-mj2l5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:55:31 +0800 (now)
+Progress:            
+:ligo-task-mj2l5
+Workflow 'ligo-task-mj2l5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:188
+:----------
+i:29
+Name:                ligo-task-7ppjx
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 12:58:39 +0800 (now)
+Progress:            
+:ligo-task-7ppjx
+Workflow 'ligo-task-7ppjx' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:190
+:----------
+i:30
+Name:                ligo-task-kkl96
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:01:49 +0800 (now)
+Progress:            
+:ligo-task-kkl96
+Workflow 'ligo-task-kkl96' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:194
+:----------
+i:31
+Name:                ligo-task-z7k27
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:05:03 +0800 (1 second ago)
+Progress:            
+:ligo-task-z7k27
+Workflow 'ligo-task-z7k27' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:183
+:----------
+i:32
+Name:                ligo-task-lkbpj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:08:06 +0800 (now)
+Progress:            
+:ligo-task-lkbpj
+Workflow 'ligo-task-lkbpj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:176
+:----------
+i:33
+Name:                ligo-task-6gcng
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:11:02 +0800 (now)
+Progress:            
+:ligo-task-6gcng
+Workflow 'ligo-task-6gcng' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:204
+:----------
+i:34
+Name:                ligo-task-sk9mb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:14:26 +0800 (now)
+Progress:            
+:ligo-task-sk9mb
+Workflow 'ligo-task-sk9mb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:183
+:----------
+i:35
+Name:                ligo-task-7bcnz
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:17:29 +0800 (now)
+Progress:            
+:ligo-task-7bcnz
+Workflow 'ligo-task-7bcnz' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:170
+:----------
+i:36
+Name:                ligo-task-26k7l
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:20:19 +0800 (now)
+Progress:            
+:ligo-task-26k7l
+Workflow 'ligo-task-26k7l' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:168
+:----------
+i:37
+Name:                ligo-task-sjszg
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:23:07 +0800 (now)
+Progress:            
+:ligo-task-sjszg
+Workflow 'ligo-task-sjszg' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:180
+:----------
+i:38
+Name:                ligo-task-gvbpv
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:26:07 +0800 (now)
+Progress:            
+:ligo-task-gvbpv
+Workflow 'ligo-task-gvbpv' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:184
+:----------
+i:39
+Name:                ligo-task-h9pms
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:29:11 +0800 (1 second ago)
+Progress:            
+:ligo-task-h9pms
+Workflow 'ligo-task-h9pms' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:201
+:----------
+i:40
+Name:                ligo-task-wwwc8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:32:32 +0800 (now)
+Progress:            
+:ligo-task-wwwc8
+Workflow 'ligo-task-wwwc8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:41
+Name:                ligo-task-qqs6l
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:35:49 +0800 (now)
+Progress:            
+:ligo-task-qqs6l
+Workflow 'ligo-task-qqs6l' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:201
+:----------
+i:42
+Name:                ligo-task-4plxd
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:39:11 +0800 (now)
+Progress:            
+:ligo-task-4plxd
+Workflow 'ligo-task-4plxd' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:159
+:----------
+i:43
+Name:                ligo-task-sstdl
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:41:49 +0800 (now)
+Progress:            
+:ligo-task-sstdl
+Workflow 'ligo-task-sstdl' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:176
+:----------
+i:44
+Name:                ligo-task-spwmf
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:44:45 +0800 (now)
+Progress:            
+:ligo-task-spwmf
+Workflow 'ligo-task-spwmf' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:157
+:----------
+i:45
+Name:                ligo-task-xvmw4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:47:22 +0800 (now)
+Progress:            
+:ligo-task-xvmw4
+Workflow 'ligo-task-xvmw4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:167
+:----------
+i:46
+Name:                ligo-task-5xpqr
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:50:10 +0800 (now)
+Progress:            
+:ligo-task-5xpqr
+Workflow 'ligo-task-5xpqr' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:159
+:----------
+i:47
+Name:                ligo-task-gwt5p
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:52:49 +0800 (now)
+Progress:            
+:ligo-task-gwt5p
+Workflow 'ligo-task-gwt5p' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:159
+:----------
+i:48
+Name:                ligo-task-47nm9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:55:28 +0800 (now)
+Progress:            
+:ligo-task-47nm9
+Workflow 'ligo-task-47nm9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:49
+Name:                ligo-task-phr78
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 13:58:44 +0800 (now)
+Progress:            
+:ligo-task-phr78
+Workflow 'ligo-task-phr78' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:204
+:----------
+i:50
+Name:                ligo-task-4jcv4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:02:08 +0800 (now)
+Progress:            
+:ligo-task-4jcv4
+Workflow 'ligo-task-4jcv4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:186
+:----------
+i:51
+Name:                ligo-task-q5txs
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:05:15 +0800 (now)
+Progress:            
+:ligo-task-q5txs
+Workflow 'ligo-task-q5txs' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:166
+:----------
+i:52
+Name:                ligo-task-pdbsh
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:08:00 +0800 (now)
+Progress:            
+:ligo-task-pdbsh
+Workflow 'ligo-task-pdbsh' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:180
+:----------
+i:53
+Name:                ligo-task-465m8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:11:01 +0800 (now)
+Progress:            
+:ligo-task-465m8
+Workflow 'ligo-task-465m8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:172
+:----------
+i:54
+Name:                ligo-task-lpxk9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:13:52 +0800 (now)
+Progress:            
+:ligo-task-lpxk9
+Workflow 'ligo-task-lpxk9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:170
+:----------
+i:55
+Name:                ligo-task-2xk55
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:16:42 +0800 (now)
+Progress:            
+:ligo-task-2xk55
+Workflow 'ligo-task-2xk55' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:189
+:----------
+i:56
+Name:                ligo-task-hhl2m
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:19:51 +0800 (now)
+Progress:            
+:ligo-task-hhl2m
+Workflow 'ligo-task-hhl2m' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:172
+:----------
+i:57
+Name:                ligo-task-xm42b
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:22:43 +0800 (now)
+Progress:            
+:ligo-task-xm42b
+Workflow 'ligo-task-xm42b' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:159
+:----------
+i:58
+Name:                ligo-task-4h8dx
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:25:22 +0800 (now)
+Progress:            
+:ligo-task-4h8dx
+Workflow 'ligo-task-4h8dx' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:196
+:----------
+i:59
+Name:                ligo-task-s4sm8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:28:38 +0800 (1 second ago)
+Progress:            
+:ligo-task-s4sm8
+Workflow 'ligo-task-s4sm8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:199
+:----------
+i:60
+Name:                ligo-task-cqs4z
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:31:57 +0800 (now)
+Progress:            
+:ligo-task-cqs4z
+Workflow 'ligo-task-cqs4z' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:----------
+i:61
+Name:                ligo-task-jzk9s
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:35:08 +0800 (now)
+Progress:            
+:ligo-task-jzk9s
+Workflow 'ligo-task-jzk9s' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:62
+Name:                ligo-task-hcxzl
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:38:25 +0800 (now)
+Progress:            
+:ligo-task-hcxzl
+Workflow 'ligo-task-hcxzl' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:190
+:----------
+i:63
+Name:                ligo-task-zxd5p
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:41:35 +0800 (now)
+Progress:            
+:ligo-task-zxd5p
+Workflow 'ligo-task-zxd5p' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:64
+Name:                ligo-task-7s2pd
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:44:47 +0800 (now)
+Progress:            
+:ligo-task-7s2pd
+Workflow 'ligo-task-7s2pd' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:186
+:----------
+i:65
+Name:                ligo-task-lfrp5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:47:53 +0800 (now)
+Progress:            
+:ligo-task-lfrp5
+Workflow 'ligo-task-lfrp5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:----------
+i:66
+Name:                ligo-task-dnf6m
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:51:04 +0800 (now)
+Progress:            
+:ligo-task-dnf6m
+Workflow 'ligo-task-dnf6m' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:182
+:----------
+i:67
+Name:                ligo-task-586qz
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:54:06 +0800 (now)
+Progress:            
+:ligo-task-586qz
+Workflow 'ligo-task-586qz' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:199
+:----------
+i:68
+Name:                ligo-task-4bpvw
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 14:57:25 +0800 (now)
+Progress:            
+:ligo-task-4bpvw
+Workflow 'ligo-task-4bpvw' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:171
+:----------
+i:69
+Name:                ligo-task-wncpq
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:00:16 +0800 (now)
+Progress:            
+:ligo-task-wncpq
+Workflow 'ligo-task-wncpq' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:164
+:----------
+i:70
+Name:                ligo-task-wwvjx
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:03:01 +0800 (now)
+Progress:            
+:ligo-task-wwvjx
+Workflow 'ligo-task-wwvjx' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:154
+:----------
+i:71
+Name:                ligo-task-h2lsb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:05:34 +0800 (now)
+Progress:            
+:ligo-task-h2lsb
+Workflow 'ligo-task-h2lsb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:164
+:----------
+i:72
+Name:                ligo-task-m2r4t
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:08:18 +0800 (now)
+Progress:            
+:ligo-task-m2r4t
+Workflow 'ligo-task-m2r4t' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:152
+:----------
+i:73
+Name:                ligo-task-ztm77
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:10:50 +0800 (now)
+Progress:            
+:ligo-task-ztm77
+Workflow 'ligo-task-ztm77' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:190
+:----------
+i:74
+Name:                ligo-task-mw2c7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:14:00 +0800 (now)
+Progress:            
+:ligo-task-mw2c7
+Workflow 'ligo-task-mw2c7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:199
+:----------
+i:75
+Name:                ligo-task-vlsrl
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:17:19 +0800 (now)
+Progress:            
+:ligo-task-vlsrl
+Workflow 'ligo-task-vlsrl' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:76
+Name:                ligo-task-r58qw
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:20:31 +0800 (now)
+Progress:            
+:ligo-task-r58qw
+Workflow 'ligo-task-r58qw' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:185
+:----------
+i:77
+Name:                ligo-task-fdzcx
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:23:36 +0800 (now)
+Progress:            
+:ligo-task-fdzcx
+Workflow 'ligo-task-fdzcx' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:170
+:----------
+i:78
+Name:                ligo-task-7hnhw
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:26:27 +0800 (now)
+Progress:            
+:ligo-task-7hnhw
+Workflow 'ligo-task-7hnhw' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:194
+:----------
+i:79
+Name:                ligo-task-sdvjp
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:29:40 +0800 (now)
+Progress:            
+:ligo-task-sdvjp
+Workflow 'ligo-task-sdvjp' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:193
+:----------
+i:80
+Name:                ligo-task-97qj2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:32:54 +0800 (now)
+Progress:            
+:ligo-task-97qj2
+Workflow 'ligo-task-97qj2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:181
+:----------
+i:81
+Name:                ligo-task-hx2dt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:35:54 +0800 (now)
+Progress:            
+:ligo-task-hx2dt
+Workflow 'ligo-task-hx2dt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:188
+:----------
+i:82
+Name:                ligo-task-vd5gt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:39:03 +0800 (now)
+Progress:            
+:ligo-task-vd5gt
+Workflow 'ligo-task-vd5gt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:194
+:----------
+i:83
+Name:                ligo-task-w24k7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:42:16 +0800 (1 second ago)
+Progress:            
+:ligo-task-w24k7
+Workflow 'ligo-task-w24k7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:182
+:----------
+i:84
+Name:                ligo-task-sn4cg
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:45:18 +0800 (1 second ago)
+Progress:            
+:ligo-task-sn4cg
+Workflow 'ligo-task-sn4cg' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:206
+:----------
+i:85
+Name:                ligo-task-fpmd9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:48:44 +0800 (now)
+Progress:            
+:ligo-task-fpmd9
+Workflow 'ligo-task-fpmd9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:206
+:----------
+i:86
+Name:                ligo-task-ns2zq
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:52:10 +0800 (now)
+Progress:            
+:ligo-task-ns2zq
+Workflow 'ligo-task-ns2zq' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:----------
+i:87
+Name:                ligo-task-hh7dx
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:55:21 +0800 (now)
+Progress:            
+:ligo-task-hh7dx
+Workflow 'ligo-task-hh7dx' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:88
+Name:                ligo-task-6rwb9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 15:58:33 +0800 (now)
+Progress:            
+:ligo-task-6rwb9
+Workflow 'ligo-task-6rwb9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:166
+:----------
+i:89
+Name:                ligo-task-zltrf
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:01:19 +0800 (now)
+Progress:            
+:ligo-task-zltrf
+Workflow 'ligo-task-zltrf' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:193
+:----------
+i:90
+Name:                ligo-task-h8ld4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:04:32 +0800 (now)
+Progress:            
+:ligo-task-h8ld4
+Workflow 'ligo-task-h8ld4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:91
+Name:                ligo-task-v64zq
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:07:44 +0800 (now)
+Progress:            
+:ligo-task-v64zq
+Workflow 'ligo-task-v64zq' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:187
+:----------
+i:92
+Name:                ligo-task-w2l5f
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:10:51 +0800 (now)
+Progress:            
+:ligo-task-w2l5f
+Workflow 'ligo-task-w2l5f' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:93
+Name:                ligo-task-knbgr
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:14:08 +0800 (now)
+Progress:            
+:ligo-task-knbgr
+Workflow 'ligo-task-knbgr' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:188
+:----------
+i:94
+Name:                ligo-task-zsbnj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:17:16 +0800 (now)
+Progress:            
+:ligo-task-zsbnj
+Workflow 'ligo-task-zsbnj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:169
+:----------
+i:95
+Name:                ligo-task-bl78r
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:20:05 +0800 (now)
+Progress:            
+:ligo-task-bl78r
+Workflow 'ligo-task-bl78r' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:154
+:----------
+i:96
+Name:                ligo-task-w7mz6
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:22:39 +0800 (now)
+Progress:            
+:ligo-task-w7mz6
+Workflow 'ligo-task-w7mz6' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:164
+:----------
+i:97
+Name:                ligo-task-978nj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:25:23 +0800 (now)
+Progress:            
+:ligo-task-978nj
+Workflow 'ligo-task-978nj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:203
+:----------
+i:98
+Name:                ligo-task-6rp44
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:28:46 +0800 (now)
+Progress:            
+:ligo-task-6rp44
+Workflow 'ligo-task-6rp44' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:188
+:----------
+i:99
+Name:                ligo-task-n4xb7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 16:31:54 +0800 (now)
+Progress:            
+:ligo-task-n4xb7
+Workflow 'ligo-task-n4xb7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:190
+:172.28.0.105
+:copy resourceUsage's log successful.
+
+-------------------------------------------------------- 
+username: root  password: bit123  port: 22  timeout=
+command: 
+Remote exec command script
+--------------------------------------------------------
+
+172.28.0.103
+172.28.0.104
+172.28.0.105
+172.28.0.106
+172.28.0.107
+172.28.0.108

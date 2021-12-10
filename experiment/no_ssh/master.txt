@@ -1,0 +1,8 @@
+k8s-master 172.28.0.67 root bit123
+k8s-master 172.28.0.74 root bit123
+k8s-master 172.28.0.81 root bit123
+k8s-master 172.28.0.94 root bit123
+k8s-master 172.28.0.205 root bit123
+k8s-master 172.28.0.212 root bit123
+k8s-master 172.28.0.219 root bit123
+

@@ -1,0 +1,137 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow                  # new type of k8s spec
+metadata:
+  generateName: cybershake-task-    # name of the workflow spec
+spec:
+  entrypoint: test
+  templates:
+  - name: task-emulate
+    #inputs:
+      #parameters:
+      #- name: para
+    container:
+      #- name: test-task-ctr
+      image: harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest
+      imagePullPolicy: IfNotPresent
+      resources:
+        requests:
+          memory: "1200Mi"
+          cpu: "1200m"
+        limits:
+          memory: "1200Mi"
+          cpu: "1200m"
+      args:  ["-c","1","-m","100","-t","5","-i","3"]
+      #command: [echo, "{{inputs.parameters.message}}"]
+   # restartPolicy: Never
+  - name: test
+    dag:
+      tasks:
+        - name: task0
+          template: task-emulate
+            #arguments:
+          #parameters: [{name: para, value: A}]
+        - name: task1
+          dependencies: [task0]
+          template: task-emulate
+            #arguments:
+          #parameters: [{name: message, value: B}]
+        - name: task2
+          dependencies: [task0]
+          template: task-emulate
+            #arguments:
+          #parameters: [{name: message, value: C}]
+        - name: task3
+          dependencies: [task1]
+          template: task-emulate
+            #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task4
+          dependencies: [task1]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task5
+          dependencies: [task1]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task6
+          dependencies: [task1]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task7
+          dependencies: [task2]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task8
+          dependencies: [task2]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task9
+          dependencies: [task2]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task10
+          dependencies: [task2]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task11
+          dependencies: [task3,task4,task5,task6,task7,task8,task9,task10]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task12
+          dependencies: [task3]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task13
+          dependencies: [task4]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task14
+          dependencies: [task5]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task15
+          dependencies: [task6]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task16
+          dependencies: [task7]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task17
+          dependencies: [task8]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task18
+          dependencies: [task9]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task19
+          dependencies: [task10]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task20
+          dependencies: [task12,task13,task14,task15,task16,task17,task18,task19]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]
+        - name: task21
+          dependencies: [task11,task20]
+          template: task-emulate
+          #arguments:
+          #parameters: [{name: message, value: D}]

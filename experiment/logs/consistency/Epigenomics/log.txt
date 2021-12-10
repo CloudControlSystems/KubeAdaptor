@@ -1,0 +1,1915 @@
+2021/11/12 08:17:19 masterIp: 172.28.0.226
+2021/11/12 08:17:19 gatherTime: 500
+2021/11/12 08:17:19 map[172.28.0.227:{0 0} 172.28.0.228:{0 0} 172.28.0.229:{0 0} 172.28.0.230:{0 0} 172.28.0.231:{0 0} 172.28.0.232:{0 0}]
+2021/11/12 08:17:19 Build workflow task builder gRPC Server.
+2021/11/12 08:17:19 Listening local port 7070.
+2021/11/12 08:17:19 Connect k8s success.
+2021/11/12 08:17:19 /kubelet.kubeconfig
+2021/11/12 08:17:19 Connect this cluster's k8s successfully.
+2021/11/12 08:17:20 --------------add a pod[resource-usage-deploy-5d85964cb7-gnfh8] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[node-local-dns-v4rm6] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[kube-flannel-ds-amd64-xfbk4] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[nfs-client-provisioner-7d55586668-g7x2w] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[node-local-dns-gfbjd] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[kube-flannel-ds-amd64-g77t9] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[coredns-7897776644-flnrx] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[kube-flannel-ds-amd64-gvgtz] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[kube-flannel-ds-amd64-rkz72] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[node-local-dns-sq6cl] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[kube-flannel-ds-amd64-l85vp] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[prometheus-f69b6589d-flgck] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[metrics-server-8568cf894b-rntls] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[kube-flannel-ds-amd64-vdqwf] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[kube-flannel-ds-amd64-jt6qd] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[node-local-dns-kb6rz] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[node-local-dns-mgrz2] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[node-local-dns-2qvll] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[task-container-builder-deploy-7f559f6d8-bpr9b] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[workflow-injector-deploy-6dcdc9b668-lh6w5] in time:1636705040247.
+2021/11/12 08:17:20 add a node: 172.28.0.231
+2021/11/12 08:17:20 add a node: 172.28.0.227
+2021/11/12 08:17:20 add a node: 172.28.0.230
+2021/11/12 08:17:20 add a node: 172.28.0.228
+2021/11/12 08:17:20 add a node: 172.28.0.229
+2021/11/12 08:17:20 add a node: 172.28.0.232
+2021/11/12 08:17:20 add a node: 172.28.0.226
+2021/11/12 08:17:20 --------------add a pod[grafana-759bbcb5b4-6z6ff] in time:1636705040247.
+2021/11/12 08:17:20 --------------add a pod[node-local-dns-wc5zp] in time:1636705040247.
+2021/11/12 08:17:20 add a namespace: kube-system
+2021/11/12 08:17:20 add a namespace: kube-public
+2021/11/12 08:17:20 add a namespace: kube-node-lease
+2021/11/12 08:17:20 add a namespace: default
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040821ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-4 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 4 map[] [0] [8] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-4: order: 4 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040824ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-5 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 5 map[] [1] [9] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-5: order: 5 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040826ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-6 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 6 map[] [2] [10] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-6: order: 6 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040828ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-9 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 9 map[] [5] [13] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-9: order: 9 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040830ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-7 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 7 map[] [3] [11] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-7: order: 7 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040832ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-10 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 10 map[] [6] [14] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-10: order: 10 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040833ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-11 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 11 map[] [7] [15] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-11: order: 11 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040834ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-12 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 12 map[] [8] [16] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-12: order: 12 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040836ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-15 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 15 map[] [11] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-15: order: 15 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040837ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-1 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 1 map[] [0] [5] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-1: order: 1 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040839ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-8 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 8 map[] [4] [12] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-8: order: 8 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040840ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-18 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 18 map[] [17] [19] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-18: order: 18 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040842ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-19 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 19 map[] [18] [] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-19: order: 19 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040843ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-16 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 16 map[] [12] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-16: order: 16 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040850ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-17 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 17 map[] [13 14 15 16] [18] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 The current taskName: workflow-0-task-17: order: 17 of workflow: workflow-0.
+2021/11/12 08:17:20 --------------------------------------------
+2021/11/12 08:17:20 --------------The reception time of this workflow task is: 1636705040852ms
+2021/11/12 08:17:20 {workflow-0 20 workflow-0-task-0 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 0 map[] [] [1 2 3 4] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:20 --------------Starting to run the first task [0] in current workflow is: 1636705040852ms
+2021/11/12 08:17:20 Creating Namespace workflow-0
+2021/11/12 08:17:20 Creating Namespaces...,this is 1th namespace.
+2021/11/12 08:17:20 add a namespace: workflow-0
+2021/11/12 08:17:20 Created Pvc workflow-0-pvc on 2021-11-12 08:17:20 +0000 UTC
+2021/11/12 08:17:20 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:17:20 Remaining resource suffices for creating task pods.
+2021/11/12 08:17:21 --------------add a pod[workflow-0-task-0] in time:1636705041886.
+2021/11/12 08:17:21 There are 1 pods in current namespace:workflow-0
+2021/11/12 08:17:21 This is 1th task pod in all workflow namespaces.
+2021/11/12 08:17:21 This is the first task: workflow-0-task-0, order: 0 , workflow: workflow-0, InputVector: [], OuputVector: [1 2 3 4].
+2021/11/12 08:17:21 *************************************************
+2021/11/12 08:17:21 --------------The reception time of this workflow task is: 1636705041893ms
+2021/11/12 08:17:21 {workflow-0 20 workflow-0-task-2 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 2 map[] [0] [6] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:21 The current taskName: workflow-0-task-2: order: 2 of workflow: workflow-0.
+2021/11/12 08:17:21 --------------------------------------------
+2021/11/12 08:17:21 --------------The reception time of this workflow task is: 1636705041896ms
+2021/11/12 08:17:21 {workflow-0 20 workflow-0-task-3 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 3 map[] [0] [7] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:21 The current taskName: workflow-0-task-3: order: 3 of workflow: workflow-0.
+2021/11/12 08:17:21 --------------------------------------------
+2021/11/12 08:17:21 --------------The reception time of this workflow task is: 1636705041898ms
+2021/11/12 08:17:21 {workflow-0 20 workflow-0-task-13 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 13 map[] [9] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:21 The current taskName: workflow-0-task-13: order: 13 of workflow: workflow-0.
+2021/11/12 08:17:21 --------------------------------------------
+2021/11/12 08:17:21 --------------The reception time of this workflow task is: 1636705041900ms
+2021/11/12 08:17:21 {workflow-0 20 workflow-0-task-14 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 14 map[] [10] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:17:21 The current taskName: workflow-0-task-14: order: 14 of workflow: workflow-0.
+2021/11/12 08:17:21 --------------------------------------------
+2021/11/12 08:17:53 Running
+2021/11/12 08:17:53 Succeeded
+2021/11/12 08:17:53 workflow-0-task-0: pod is completed
+2021/11/12 08:17:53 Deleting taskPodName: workflow-0-task-0.
+2021/11/12 08:17:53 --------------Deleting taskPodName workflow-0-task-0 in time:1636705073511ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:17:53 This is the 1th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.230.
+2021/11/12 08:17:53 The bool val of current task[0] is: true.
+2021/11/12 08:17:53 Staring to trigger the next task container.
+2021/11/12 08:17:53 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:17:53 The outVector of current task is: [1]
+2021/11/12 08:17:53 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705073511
+2021/11/12 08:17:53 The outVector of current task is: [2]
+2021/11/12 08:17:53 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705073511
+2021/11/12 08:17:53 The outVector of current task is: [3]
+2021/11/12 08:17:53 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705073511
+2021/11/12 08:17:53 The outVector of current task is: [4]
+2021/11/12 08:17:53 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705073511
+2021/11/12 08:17:53 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:17:53 The intVector of current task is: [0]
+2021/11/12 08:17:53 The bool val of task[0] is: true.
+2021/11/12 08:17:53 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:17:53 Prefix task of current task are all completed.
+2021/11/12 08:17:53 --------------Starting to run task[4] in time:1636705073511ms.
+2021/11/12 08:17:53 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:17:53 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:17:53 The intVector of current task is: [0]
+2021/11/12 08:17:53 The bool val of task[0] is: true.
+2021/11/12 08:17:53 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:17:53 Prefix task of current task are all completed.
+2021/11/12 08:17:53 --------------Starting to run task[3] in time:1636705073511ms.
+2021/11/12 08:17:53 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:17:53 The intVector of current task is: [0]
+2021/11/12 08:17:53 The bool val of task[0] is: true.
+2021/11/12 08:17:53 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:17:53 Prefix task of current task are all completed.
+2021/11/12 08:17:53 --------------Starting to run task[1] in time:1636705073511ms.
+2021/11/12 08:17:53 The intVector of current task is: [0]
+2021/11/12 08:17:53 The bool val of task[0] is: true.
+2021/11/12 08:17:53 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:17:53 Prefix task of current task are all completed.
+2021/11/12 08:17:53 --------------Starting to run task[2] in time:1636705073511ms.
+2021/11/12 08:17:53 This namespace workflow-0 is already exist.
+2021/11/12 08:17:53 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:17:53 Remaining resource suffices for creating task pods.
+2021/11/12 08:17:53 There are 1 pods in current namespace:workflow-0
+2021/11/12 08:17:53 This is 2th task pod in all workflow namespaces.
+2021/11/12 08:17:53 This namespace workflow-0 is already exist.
+2021/11/12 08:17:53 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:17:53 Remaining resource suffices for creating task pods.
+2021/11/12 08:17:53 There are 2 pods in current namespace:workflow-0
+2021/11/12 08:17:53 This is 3th task pod in all workflow namespaces.
+2021/11/12 08:17:53 This namespace workflow-0 is already exist.
+2021/11/12 08:17:53 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:17:53 Remaining resource suffices for creating task pods.
+2021/11/12 08:17:54 There are 3 pods in current namespace:workflow-0
+2021/11/12 08:17:54 This is 4th task pod in all workflow namespaces.
+2021/11/12 08:17:54 This namespace workflow-0 is already exist.
+2021/11/12 08:17:54 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:17:54 Remaining resource suffices for creating task pods.
+2021/11/12 08:17:54 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:17:54 This is 5th task pod in all workflow namespaces.
+2021/11/12 08:17:54 ----------------------------
+2021/11/12 08:17:54 --------------delete a pod at time: workflow-0-task-0 1636705074896
+2021/11/12 08:17:54 --------------add a pod[workflow-0-task-4] in time:1636705074897.
+2021/11/12 08:17:54 --------------add a pod[workflow-0-task-3] in time:1636705074897.
+2021/11/12 08:17:54 --------------add a pod[workflow-0-task-1] in time:1636705074897.
+2021/11/12 08:17:54 --------------add a pod[workflow-0-task-2] in time:1636705074897.
+2021/11/12 08:18:05 Running
+2021/11/12 08:18:05 Succeeded
+2021/11/12 08:18:05 workflow-0-task-4: pod is completed
+2021/11/12 08:18:05 Deleting taskPodName: workflow-0-task-4.
+2021/11/12 08:18:05 --------------Deleting taskPodName workflow-0-task-4 in time:1636705085564ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:18:05 This is the 2th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.228.
+2021/11/12 08:18:05 The bool val of current task[4] is: true.
+2021/11/12 08:18:05 Staring to trigger the next task container.
+2021/11/12 08:18:05 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:05 The outVector of current task is: [8]
+2021/11/12 08:18:05 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705085564
+2021/11/12 08:18:05 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:05 The intVector of current task is: [4]
+2021/11/12 08:18:05 The bool val of task[4] is: true.
+2021/11/12 08:18:05 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:05 Prefix task of current task are all completed.
+2021/11/12 08:18:05 --------------Starting to run task[8] in time:1636705085564ms.
+2021/11/12 08:18:05 This namespace workflow-0 is already exist.
+2021/11/12 08:18:05 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:05 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:05 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:05 This is 6th task pod in all workflow namespaces.
+2021/11/12 08:18:05 ----------------------------
+2021/11/12 08:18:05 --------------delete a pod at time: workflow-0-task-4 1636705085605
+2021/11/12 08:18:05 --------------add a pod[workflow-0-task-8] in time:1636705085605.
+2021/11/12 08:18:06 Running
+2021/11/12 08:18:06 Succeeded
+2021/11/12 08:18:06 workflow-0-task-1: pod is completed
+2021/11/12 08:18:06 Deleting taskPodName: workflow-0-task-1.
+2021/11/12 08:18:06 --------------Deleting taskPodName workflow-0-task-1 in time:1636705086439ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:18:06 This is the 3th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.227.
+2021/11/12 08:18:06 The bool val of current task[1] is: true.
+2021/11/12 08:18:06 Staring to trigger the next task container.
+2021/11/12 08:18:06 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:06 The outVector of current task is: [5]
+2021/11/12 08:18:06 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705086439
+2021/11/12 08:18:06 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:06 The intVector of current task is: [1]
+2021/11/12 08:18:06 The bool val of task[1] is: true.
+2021/11/12 08:18:06 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:06 Prefix task of current task are all completed.
+2021/11/12 08:18:06 --------------Starting to run task[5] in time:1636705086439ms.
+2021/11/12 08:18:06 This namespace workflow-0 is already exist.
+2021/11/12 08:18:06 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:06 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:06 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:06 This is 7th task pod in all workflow namespaces.
+2021/11/12 08:18:06 ----------------------------
+2021/11/12 08:18:06 --------------delete a pod at time: workflow-0-task-1 1636705086465
+2021/11/12 08:18:06 --------------add a pod[workflow-0-task-5] in time:1636705086465.
+2021/11/12 08:18:06 Running
+2021/11/12 08:18:06 Succeeded
+2021/11/12 08:18:06 workflow-0-task-2: pod is completed
+2021/11/12 08:18:06 Deleting taskPodName: workflow-0-task-2.
+2021/11/12 08:18:06 --------------Deleting taskPodName workflow-0-task-2 in time:1636705086551ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:18:06 This is the 4th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.230.
+2021/11/12 08:18:06 The bool val of current task[2] is: true.
+2021/11/12 08:18:06 Staring to trigger the next task container.
+2021/11/12 08:18:06 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:06 The outVector of current task is: [6]
+2021/11/12 08:18:06 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705086551
+2021/11/12 08:18:06 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:06 The intVector of current task is: [2]
+2021/11/12 08:18:06 The bool val of task[2] is: true.
+2021/11/12 08:18:06 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:06 Prefix task of current task are all completed.
+2021/11/12 08:18:06 --------------Starting to run task[6] in time:1636705086551ms.
+2021/11/12 08:18:06 This namespace workflow-0 is already exist.
+2021/11/12 08:18:06 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:06 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:06 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:06 This is 8th task pod in all workflow namespaces.
+2021/11/12 08:18:06 ----------------------------
+2021/11/12 08:18:06 --------------delete a pod at time: workflow-0-task-2 1636705086584
+2021/11/12 08:18:06 Running
+2021/11/12 08:18:06 Succeeded
+2021/11/12 08:18:06 workflow-0-task-3: pod is completed
+2021/11/12 08:18:06 Deleting taskPodName: workflow-0-task-3.
+2021/11/12 08:18:06 --------------Deleting taskPodName workflow-0-task-3 in time:1636705086771ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:18:06 This is the 5th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.232.
+2021/11/12 08:18:06 The bool val of current task[3] is: true.
+2021/11/12 08:18:06 Staring to trigger the next task container.
+2021/11/12 08:18:06 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:06 The outVector of current task is: [7]
+2021/11/12 08:18:06 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705086771
+2021/11/12 08:18:06 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:06 The intVector of current task is: [3]
+2021/11/12 08:18:06 The bool val of task[3] is: true.
+2021/11/12 08:18:06 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:06 Prefix task of current task are all completed.
+2021/11/12 08:18:06 --------------Starting to run task[7] in time:1636705086771ms.
+2021/11/12 08:18:06 This namespace workflow-0 is already exist.
+2021/11/12 08:18:07 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:07 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:07 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:07 This is 9th task pod in all workflow namespaces.
+2021/11/12 08:18:07 ----------------------------
+2021/11/12 08:18:07 --------------add a pod[workflow-0-task-6] in time:1636705087554.
+2021/11/12 08:18:07 --------------delete a pod at time: workflow-0-task-3 1636705087554
+2021/11/12 08:18:07 --------------add a pod[workflow-0-task-7] in time:1636705087554.
+2021/11/12 08:18:17 Running
+2021/11/12 08:18:17 Succeeded
+2021/11/12 08:18:17 workflow-0-task-8: pod is completed
+2021/11/12 08:18:17 Deleting taskPodName: workflow-0-task-8.
+2021/11/12 08:18:17 --------------Deleting taskPodName workflow-0-task-8 in time:1636705097608ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:18:17 This is the 6th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.228.
+2021/11/12 08:18:17 The bool val of current task[8] is: true.
+2021/11/12 08:18:17 Staring to trigger the next task container.
+2021/11/12 08:18:17 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:17 The outVector of current task is: [12]
+2021/11/12 08:18:17 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705097609
+2021/11/12 08:18:17 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:17 The intVector of current task is: [8]
+2021/11/12 08:18:17 The bool val of task[8] is: true.
+2021/11/12 08:18:17 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:17 Prefix task of current task are all completed.
+2021/11/12 08:18:17 --------------Starting to run task[12] in time:1636705097609ms.
+2021/11/12 08:18:17 This namespace workflow-0 is already exist.
+2021/11/12 08:18:17 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:17 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:17 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:17 This is 10th task pod in all workflow namespaces.
+2021/11/12 08:18:17 ----------------------------
+2021/11/12 08:18:17 --------------delete a pod at time: workflow-0-task-8 1636705097630
+2021/11/12 08:18:17 --------------add a pod[workflow-0-task-12] in time:1636705097630.
+2021/11/12 08:18:18 Running
+2021/11/12 08:18:18 Succeeded
+2021/11/12 08:18:18 workflow-0-task-5: pod is completed
+2021/11/12 08:18:18 Deleting taskPodName: workflow-0-task-5.
+2021/11/12 08:18:18 --------------Deleting taskPodName workflow-0-task-5 in time:1636705098469ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:18:18 This is the 7th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.227.
+2021/11/12 08:18:18 The bool val of current task[5] is: true.
+2021/11/12 08:18:18 Staring to trigger the next task container.
+2021/11/12 08:18:18 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:18 The outVector of current task is: [9]
+2021/11/12 08:18:18 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705098470
+2021/11/12 08:18:18 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:18 The intVector of current task is: [5]
+2021/11/12 08:18:18 The bool val of task[5] is: true.
+2021/11/12 08:18:18 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:18 Prefix task of current task are all completed.
+2021/11/12 08:18:18 --------------Starting to run task[9] in time:1636705098470ms.
+2021/11/12 08:18:18 This namespace workflow-0 is already exist.
+2021/11/12 08:18:18 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:18 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:18 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:18 This is 11th task pod in all workflow namespaces.
+2021/11/12 08:18:18 ----------------------------
+2021/11/12 08:18:18 --------------delete a pod at time: workflow-0-task-5 1636705098513
+2021/11/12 08:18:18 --------------add a pod[workflow-0-task-9] in time:1636705098513.
+2021/11/12 08:18:18 Running
+2021/11/12 08:18:18 Succeeded
+2021/11/12 08:18:18 workflow-0-task-6: pod is completed
+2021/11/12 08:18:18 Deleting taskPodName: workflow-0-task-6.
+2021/11/12 08:18:18 --------------Deleting taskPodName workflow-0-task-6 in time:1636705098633ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:18:18 This is the 8th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.232.
+2021/11/12 08:18:18 The bool val of current task[6] is: true.
+2021/11/12 08:18:18 Staring to trigger the next task container.
+2021/11/12 08:18:18 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:18 The outVector of current task is: [10]
+2021/11/12 08:18:18 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705098633
+2021/11/12 08:18:18 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:18 The intVector of current task is: [6]
+2021/11/12 08:18:18 The bool val of task[6] is: true.
+2021/11/12 08:18:18 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:18 Prefix task of current task are all completed.
+2021/11/12 08:18:18 --------------Starting to run task[10] in time:1636705098633ms.
+2021/11/12 08:18:18 This namespace workflow-0 is already exist.
+2021/11/12 08:18:18 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:18:18 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:18 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:18 This is 12th task pod in all workflow namespaces.
+2021/11/12 08:18:18 ----------------------------
+2021/11/12 08:18:18 --------------delete a pod at time: workflow-0-task-6 1636705098678
+2021/11/12 08:18:18 --------------add a pod[workflow-0-task-10] in time:1636705098678.
+2021/11/12 08:18:19 Running
+2021/11/12 08:18:19 Succeeded
+2021/11/12 08:18:19 workflow-0-task-7: pod is completed
+2021/11/12 08:18:19 Deleting taskPodName: workflow-0-task-7.
+2021/11/12 08:18:19 --------------Deleting taskPodName workflow-0-task-7 in time:1636705099610ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:18:19 This is the 9th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.230.
+2021/11/12 08:18:19 The bool val of current task[7] is: true.
+2021/11/12 08:18:19 Staring to trigger the next task container.
+2021/11/12 08:18:19 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:19 The outVector of current task is: [11]
+2021/11/12 08:18:19 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705099610
+2021/11/12 08:18:19 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:19 The intVector of current task is: [7]
+2021/11/12 08:18:19 The bool val of task[7] is: true.
+2021/11/12 08:18:19 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:19 Prefix task of current task are all completed.
+2021/11/12 08:18:19 --------------Starting to run task[11] in time:1636705099610ms.
+2021/11/12 08:18:19 This namespace workflow-0 is already exist.
+2021/11/12 08:18:19 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:19 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:19 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:19 This is 13th task pod in all workflow namespaces.
+2021/11/12 08:18:19 ----------------------------
+2021/11/12 08:18:19 --------------delete a pod at time: workflow-0-task-7 1636705099641
+2021/11/12 08:18:19 --------------add a pod[workflow-0-task-11] in time:1636705099641.
+2021/11/12 08:18:29 Running
+2021/11/12 08:18:29 Succeeded
+2021/11/12 08:18:29 workflow-0-task-12: pod is completed
+2021/11/12 08:18:29 Deleting taskPodName: workflow-0-task-12.
+2021/11/12 08:18:29 --------------Deleting taskPodName workflow-0-task-12 in time:1636705109635ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:18:29 This is the 10th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.228.
+2021/11/12 08:18:29 The bool val of current task[12] is: true.
+2021/11/12 08:18:29 Staring to trigger the next task container.
+2021/11/12 08:18:29 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:29 The outVector of current task is: [16]
+2021/11/12 08:18:29 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705109635
+2021/11/12 08:18:29 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:29 The intVector of current task is: [12]
+2021/11/12 08:18:29 The bool val of task[12] is: true.
+2021/11/12 08:18:29 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:29 Prefix task of current task are all completed.
+2021/11/12 08:18:29 --------------Starting to run task[16] in time:1636705109635ms.
+2021/11/12 08:18:29 This namespace workflow-0 is already exist.
+2021/11/12 08:18:29 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:29 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:29 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:29 This is 14th task pod in all workflow namespaces.
+2021/11/12 08:18:29 ----------------------------
+2021/11/12 08:18:29 --------------delete a pod at time: workflow-0-task-12 1636705109671
+2021/11/12 08:18:29 --------------add a pod[workflow-0-task-16] in time:1636705109671.
+2021/11/12 08:18:30 Running
+2021/11/12 08:18:30 Succeeded
+2021/11/12 08:18:30 workflow-0-task-9: pod is completed
+2021/11/12 08:18:30 Deleting taskPodName: workflow-0-task-9.
+2021/11/12 08:18:30 --------------Deleting taskPodName workflow-0-task-9 in time:1636705110503ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:18:30 This is the 11th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.227.
+2021/11/12 08:18:30 The bool val of current task[9] is: true.
+2021/11/12 08:18:30 Staring to trigger the next task container.
+2021/11/12 08:18:30 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:30 The outVector of current task is: [13]
+2021/11/12 08:18:30 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705110503
+2021/11/12 08:18:30 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:30 The intVector of current task is: [9]
+2021/11/12 08:18:30 The bool val of task[9] is: true.
+2021/11/12 08:18:30 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:30 Prefix task of current task are all completed.
+2021/11/12 08:18:30 --------------Starting to run task[13] in time:1636705110504ms.
+2021/11/12 08:18:30 This namespace workflow-0 is already exist.
+2021/11/12 08:18:30 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:30 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:30 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:30 This is 15th task pod in all workflow namespaces.
+2021/11/12 08:18:30 ----------------------------
+2021/11/12 08:18:30 --------------delete a pod at time: workflow-0-task-9 1636705110529
+2021/11/12 08:18:30 --------------add a pod[workflow-0-task-13] in time:1636705110529.
+2021/11/12 08:18:30 Running
+2021/11/12 08:18:30 Succeeded
+2021/11/12 08:18:30 workflow-0-task-10: pod is completed
+2021/11/12 08:18:30 Deleting taskPodName: workflow-0-task-10.
+2021/11/12 08:18:30 --------------Deleting taskPodName workflow-0-task-10 in time:1636705110661ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:18:30 This is the 12th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.232.
+2021/11/12 08:18:30 The bool val of current task[10] is: true.
+2021/11/12 08:18:30 Staring to trigger the next task container.
+2021/11/12 08:18:30 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:30 The outVector of current task is: [14]
+2021/11/12 08:18:30 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705110662
+2021/11/12 08:18:30 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:30 The intVector of current task is: [10]
+2021/11/12 08:18:30 The bool val of task[10] is: true.
+2021/11/12 08:18:30 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:30 Prefix task of current task are all completed.
+2021/11/12 08:18:30 --------------Starting to run task[14] in time:1636705110662ms.
+2021/11/12 08:18:30 This namespace workflow-0 is already exist.
+2021/11/12 08:18:30 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:18:30 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:30 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:30 This is 16th task pod in all workflow namespaces.
+2021/11/12 08:18:30 ----------------------------
+2021/11/12 08:18:30 --------------delete a pod at time: workflow-0-task-10 1636705110694
+2021/11/12 08:18:30 --------------add a pod[workflow-0-task-14] in time:1636705110694.
+2021/11/12 08:18:31 Running
+2021/11/12 08:18:31 Succeeded
+2021/11/12 08:18:31 workflow-0-task-11: pod is completed
+2021/11/12 08:18:31 Deleting taskPodName: workflow-0-task-11.
+2021/11/12 08:18:31 --------------Deleting taskPodName workflow-0-task-11 in time:1636705111622ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:18:31 This is the 13th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.230.
+2021/11/12 08:18:31 The bool val of current task[11] is: true.
+2021/11/12 08:18:31 Staring to trigger the next task container.
+2021/11/12 08:18:31 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:31 The outVector of current task is: [15]
+2021/11/12 08:18:31 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705111622
+2021/11/12 08:18:31 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:31 The intVector of current task is: [11]
+2021/11/12 08:18:31 The bool val of task[11] is: true.
+2021/11/12 08:18:31 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:31 Prefix task of current task are all completed.
+2021/11/12 08:18:31 --------------Starting to run task[15] in time:1636705111622ms.
+2021/11/12 08:18:31 This namespace workflow-0 is already exist.
+2021/11/12 08:18:31 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:18:31 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:31 There are 4 pods in current namespace:workflow-0
+2021/11/12 08:18:31 This is 17th task pod in all workflow namespaces.
+2021/11/12 08:18:31 ----------------------------
+2021/11/12 08:18:31 --------------delete a pod at time: workflow-0-task-11 1636705111654
+2021/11/12 08:18:31 --------------add a pod[workflow-0-task-15] in time:1636705111654.
+2021/11/12 08:18:41 Running
+2021/11/12 08:18:41 Succeeded
+2021/11/12 08:18:41 workflow-0-task-16: pod is completed
+2021/11/12 08:18:41 Deleting taskPodName: workflow-0-task-16.
+2021/11/12 08:18:41 --------------Deleting taskPodName workflow-0-task-16 in time:1636705121669ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:18:41 This is the 14th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.228.
+2021/11/12 08:18:41 The bool val of current task[16] is: true.
+2021/11/12 08:18:41 Staring to trigger the next task container.
+2021/11/12 08:18:41 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:41 The outVector of current task is: [17]
+2021/11/12 08:18:41 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705121669
+2021/11/12 08:18:41 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:41 The intVector of current task is: [13]
+2021/11/12 08:18:41 The bool val of task[13] is: false.
+2021/11/12 08:18:41 The intVector of current task is: [14]
+2021/11/12 08:18:41 The bool val of task[14] is: false.
+2021/11/12 08:18:41 The intVector of current task is: [15]
+2021/11/12 08:18:41 The bool val of task[15] is: false.
+2021/11/12 08:18:41 The intVector of current task is: [16]
+2021/11/12 08:18:41 The bool val of task[16] is: true.
+2021/11/12 08:18:41 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:18:41 ----------------------------
+2021/11/12 08:18:41 --------------delete a pod at time: workflow-0-task-16 1636705121669
+2021/11/12 08:18:42 Running
+2021/11/12 08:18:42 Succeeded
+2021/11/12 08:18:42 workflow-0-task-13: pod is completed
+2021/11/12 08:18:42 Deleting taskPodName: workflow-0-task-13.
+2021/11/12 08:18:42 --------------Deleting taskPodName workflow-0-task-13 in time:1636705122538ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:18:42 This is the 15th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.227.
+2021/11/12 08:18:42 The bool val of current task[13] is: true.
+2021/11/12 08:18:42 Staring to trigger the next task container.
+2021/11/12 08:18:42 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:42 The outVector of current task is: [17]
+2021/11/12 08:18:42 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705122538
+2021/11/12 08:18:42 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:42 The intVector of current task is: [13]
+2021/11/12 08:18:42 The bool val of task[13] is: true.
+2021/11/12 08:18:42 The intVector of current task is: [14]
+2021/11/12 08:18:42 The bool val of task[14] is: false.
+2021/11/12 08:18:42 The intVector of current task is: [15]
+2021/11/12 08:18:42 The bool val of task[15] is: false.
+2021/11/12 08:18:42 The intVector of current task is: [16]
+2021/11/12 08:18:42 The bool val of task[16] is: true.
+2021/11/12 08:18:42 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:18:42 ----------------------------
+2021/11/12 08:18:42 --------------delete a pod at time: workflow-0-task-13 1636705122539
+2021/11/12 08:18:42 Running
+2021/11/12 08:18:42 Succeeded
+2021/11/12 08:18:42 workflow-0-task-14: pod is completed
+2021/11/12 08:18:42 Deleting taskPodName: workflow-0-task-14.
+2021/11/12 08:18:42 --------------Deleting taskPodName workflow-0-task-14 in time:1636705122716ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:18:42 This is the 16th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.232.
+2021/11/12 08:18:42 The bool val of current task[14] is: true.
+2021/11/12 08:18:42 Staring to trigger the next task container.
+2021/11/12 08:18:42 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:42 The outVector of current task is: [17]
+2021/11/12 08:18:42 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705122716
+2021/11/12 08:18:42 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:42 The intVector of current task is: [13]
+2021/11/12 08:18:42 The bool val of task[13] is: true.
+2021/11/12 08:18:42 The intVector of current task is: [14]
+2021/11/12 08:18:42 The bool val of task[14] is: true.
+2021/11/12 08:18:42 The intVector of current task is: [15]
+2021/11/12 08:18:42 The bool val of task[15] is: false.
+2021/11/12 08:18:42 The intVector of current task is: [16]
+2021/11/12 08:18:42 The bool val of task[16] is: true.
+2021/11/12 08:18:42 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:18:42 ----------------------------
+2021/11/12 08:18:42 --------------delete a pod at time: workflow-0-task-14 1636705122716
+2021/11/12 08:18:43 Running
+2021/11/12 08:18:43 Succeeded
+2021/11/12 08:18:43 workflow-0-task-15: pod is completed
+2021/11/12 08:18:43 Deleting taskPodName: workflow-0-task-15.
+2021/11/12 08:18:43 --------------Deleting taskPodName workflow-0-task-15 in time:1636705123657ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:18:43 This is the 17th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.230.
+2021/11/12 08:18:43 The bool val of current task[15] is: true.
+2021/11/12 08:18:43 Staring to trigger the next task container.
+2021/11/12 08:18:43 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:43 The outVector of current task is: [17]
+2021/11/12 08:18:43 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705123657
+2021/11/12 08:18:43 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:43 The intVector of current task is: [13]
+2021/11/12 08:18:43 The bool val of task[13] is: true.
+2021/11/12 08:18:43 The intVector of current task is: [14]
+2021/11/12 08:18:43 The bool val of task[14] is: true.
+2021/11/12 08:18:43 The intVector of current task is: [15]
+2021/11/12 08:18:43 The bool val of task[15] is: true.
+2021/11/12 08:18:43 The intVector of current task is: [16]
+2021/11/12 08:18:43 The bool val of task[16] is: true.
+2021/11/12 08:18:43 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:43 Prefix task of current task are all completed.
+2021/11/12 08:18:43 --------------Starting to run task[17] in time:1636705123658ms.
+2021/11/12 08:18:43 This namespace workflow-0 is already exist.
+2021/11/12 08:18:43 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:18:43 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:43 There are 1 pods in current namespace:workflow-0
+2021/11/12 08:18:43 This is 18th task pod in all workflow namespaces.
+2021/11/12 08:18:43 ----------------------------
+2021/11/12 08:18:43 --------------delete a pod at time: workflow-0-task-15 1636705123684
+2021/11/12 08:18:43 --------------add a pod[workflow-0-task-17] in time:1636705123684.
+2021/11/12 08:18:55 Running
+2021/11/12 08:18:55 Succeeded
+2021/11/12 08:18:55 workflow-0-task-17: pod is completed
+2021/11/12 08:18:55 Deleting taskPodName: workflow-0-task-17.
+2021/11/12 08:18:55 --------------Deleting taskPodName workflow-0-task-17 in time:1636705135694ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:18:55 This is the 18th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.230.
+2021/11/12 08:18:55 The bool val of current task[17] is: true.
+2021/11/12 08:18:55 Staring to trigger the next task container.
+2021/11/12 08:18:55 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:18:55 The outVector of current task is: [18]
+2021/11/12 08:18:55 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705135694
+2021/11/12 08:18:55 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:18:55 The intVector of current task is: [17]
+2021/11/12 08:18:55 The bool val of task[17] is: true.
+2021/11/12 08:18:55 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:18:55 Prefix task of current task are all completed.
+2021/11/12 08:18:55 --------------Starting to run task[18] in time:1636705135694ms.
+2021/11/12 08:18:55 This namespace workflow-0 is already exist.
+2021/11/12 08:18:55 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:18:55 Remaining resource suffices for creating task pods.
+2021/11/12 08:18:55 There are 1 pods in current namespace:workflow-0
+2021/11/12 08:18:55 This is 19th task pod in all workflow namespaces.
+2021/11/12 08:18:55 ----------------------------
+2021/11/12 08:18:55 --------------delete a pod at time: workflow-0-task-17 1636705135720
+2021/11/12 08:18:55 --------------add a pod[workflow-0-task-18] in time:1636705135720.
+2021/11/12 08:19:07 Running
+2021/11/12 08:19:07 Succeeded
+2021/11/12 08:19:07 workflow-0-task-18: pod is completed
+2021/11/12 08:19:07 Deleting taskPodName: workflow-0-task-18.
+2021/11/12 08:19:07 --------------Deleting taskPodName workflow-0-task-18 in time:1636705147783ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:19:07 This is the 19th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.232.
+2021/11/12 08:19:07 The bool val of current task[18] is: true.
+2021/11/12 08:19:07 Staring to trigger the next task container.
+2021/11/12 08:19:07 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:19:07 The outVector of current task is: [19]
+2021/11/12 08:19:07 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705147783
+2021/11/12 08:19:07 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:07 The intVector of current task is: [18]
+2021/11/12 08:19:07 The bool val of task[18] is: true.
+2021/11/12 08:19:07 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:07 Prefix task of current task are all completed.
+2021/11/12 08:19:07 --------------Starting to run task[19] in time:1636705147783ms.
+2021/11/12 08:19:07 This namespace workflow-0 is already exist.
+2021/11/12 08:19:07 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:19:07 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:07 There are 1 pods in current namespace:workflow-0
+2021/11/12 08:19:07 This is 20th task pod in all workflow namespaces.
+2021/11/12 08:19:07 ----------------------------
+2021/11/12 08:19:07 --------------delete a pod at time: workflow-0-task-18 1636705147817
+2021/11/12 08:19:07 --------------add a pod[workflow-0-task-19] in time:1636705147817.
+2021/11/12 08:19:19 Running
+2021/11/12 08:19:19 Succeeded
+2021/11/12 08:19:19 workflow-0-task-19: pod is completed
+2021/11/12 08:19:19 Deleting taskPodName: workflow-0-task-19.
+2021/11/12 08:19:19 --------------Deleting taskPodName workflow-0-task-19 in time:1636705159798ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:19:19 This is the 20th deleted workflow task pod in workflow-0 on Cluster node: 172.28.0.232.
+2021/11/12 08:19:19 Delete the Namespace: workflow-0.
+2021/11/12 08:19:19 --------------Delete the Namespace workflow-0 in time: 1636705159816ms.
+2021/11/12 08:19:19 The bool val of current task[19] is: true.
+2021/11/12 08:19:19 Staring to trigger the next task container.
+2021/11/12 08:19:19 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:19:19 ----------------------------
+2021/11/12 08:19:19 --------------delete a pod at time: workflow-0-task-19 1636705159816
+2021/11/12 08:19:30 --------------delete a namespace at time: workflow-0 1636705170876
+2021/11/12 08:19:30 10.68.148.175:7070
+2021/11/12 08:19:30 Dial Workflow Injector...
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170889ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-9 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 9 map[] [5] [13] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-9: order: 9 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170892ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-13 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 13 map[] [9] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-13: order: 13 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170894ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-14 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 14 map[] [10] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-14: order: 14 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170895ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-1 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 1 map[] [0] [5] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-1: order: 1 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170897ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-7 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 7 map[] [3] [11] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-7: order: 7 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170899ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-18 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 18 map[] [17] [19] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-18: order: 18 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170900ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-6 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 6 map[] [2] [10] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-6: order: 6 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170901ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-17 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 17 map[] [13 14 15 16] [18] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-17: order: 17 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170903ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-19 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 19 map[] [18] [] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-19: order: 19 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170904ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-10 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 10 map[] [6] [14] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-10: order: 10 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170907ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-11 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 11 map[] [7] [15] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 The current taskName: workflow-1-task-11: order: 11 of workflow: workflow-1.
+2021/11/12 08:19:30 --------------------------------------------
+2021/11/12 08:19:30 --------------The reception time of this workflow task is: 1636705170908ms
+2021/11/12 08:19:30 {workflow-1 20 workflow-1-task-0 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 0 map[] [] [1 2 3 4] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:30 --------------Starting to run the first task [0] in current workflow is: 1636705170909ms
+2021/11/12 08:19:30 Creating Namespace workflow-1
+2021/11/12 08:19:30 Creating Namespaces...,this is 2th namespace.
+2021/11/12 08:19:30 Created Pvc workflow-1-pvc on 2021-11-12 08:19:30 +0000 UTC
+2021/11/12 08:19:30 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:19:30 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:31 --------------add a pod[workflow-1-task-0] in time:1636705171943.
+2021/11/12 08:19:31 There are 1 pods in current namespace:workflow-1
+2021/11/12 08:19:31 This is 21th task pod in all workflow namespaces.
+2021/11/12 08:19:31 This is the first task: workflow-1-task-0, order: 0 , workflow: workflow-1, InputVector: [], OuputVector: [1 2 3 4].
+2021/11/12 08:19:31 *************************************************
+2021/11/12 08:19:31 --------------The reception time of this workflow task is: 1636705171958ms
+2021/11/12 08:19:31 {workflow-1 20 workflow-1-task-2 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 2 map[] [0] [6] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:31 The current taskName: workflow-1-task-2: order: 2 of workflow: workflow-1.
+2021/11/12 08:19:31 --------------------------------------------
+2021/11/12 08:19:31 --------------The reception time of this workflow task is: 1636705171960ms
+2021/11/12 08:19:31 {workflow-1 20 workflow-1-task-3 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 3 map[] [0] [7] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:31 The current taskName: workflow-1-task-3: order: 3 of workflow: workflow-1.
+2021/11/12 08:19:31 --------------------------------------------
+2021/11/12 08:19:31 --------------The reception time of this workflow task is: 1636705171962ms
+2021/11/12 08:19:31 {workflow-1 20 workflow-1-task-4 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 4 map[] [0] [8] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:31 The current taskName: workflow-1-task-4: order: 4 of workflow: workflow-1.
+2021/11/12 08:19:31 --------------------------------------------
+2021/11/12 08:19:31 --------------The reception time of this workflow task is: 1636705171963ms
+2021/11/12 08:19:31 {workflow-1 20 workflow-1-task-5 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 5 map[] [1] [9] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:31 The current taskName: workflow-1-task-5: order: 5 of workflow: workflow-1.
+2021/11/12 08:19:31 --------------------------------------------
+2021/11/12 08:19:31 --------------The reception time of this workflow task is: 1636705171965ms
+2021/11/12 08:19:31 {workflow-1 20 workflow-1-task-8 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 8 map[] [4] [12] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:31 The current taskName: workflow-1-task-8: order: 8 of workflow: workflow-1.
+2021/11/12 08:19:31 --------------------------------------------
+2021/11/12 08:19:31 --------------The reception time of this workflow task is: 1636705171966ms
+2021/11/12 08:19:31 {workflow-1 20 workflow-1-task-12 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 12 map[] [8] [16] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:31 The current taskName: workflow-1-task-12: order: 12 of workflow: workflow-1.
+2021/11/12 08:19:31 --------------------------------------------
+2021/11/12 08:19:31 --------------The reception time of this workflow task is: 1636705171967ms
+2021/11/12 08:19:31 {workflow-1 20 workflow-1-task-15 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 15 map[] [11] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:31 The current taskName: workflow-1-task-15: order: 15 of workflow: workflow-1.
+2021/11/12 08:19:31 --------------------------------------------
+2021/11/12 08:19:31 --------------The reception time of this workflow task is: 1636705171969ms
+2021/11/12 08:19:31 {workflow-1 20 workflow-1-task-16 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 16 map[] [12] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:19:31 The current taskName: workflow-1-task-16: order: 16 of workflow: workflow-1.
+2021/11/12 08:19:31 --------------------------------------------
+2021/11/12 08:19:31 true
+2021/11/12 08:19:31 --------------The next workflow is injected at time: 1636705171970
+2021/11/12 08:19:31 add a namespace: workflow-1
+2021/11/12 08:19:43 Running
+2021/11/12 08:19:43 Succeeded
+2021/11/12 08:19:43 workflow-1-task-0: pod is completed
+2021/11/12 08:19:43 Deleting taskPodName: workflow-1-task-0.
+2021/11/12 08:19:43 --------------Deleting taskPodName workflow-1-task-0 in time:1636705183804ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:19:43 This is the 21th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.228.
+2021/11/12 08:19:43 The bool val of current task[0] is: true.
+2021/11/12 08:19:43 Staring to trigger the next task container.
+2021/11/12 08:19:43 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:19:43 The outVector of current task is: [1]
+2021/11/12 08:19:43 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705183804
+2021/11/12 08:19:43 The outVector of current task is: [2]
+2021/11/12 08:19:43 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705183804
+2021/11/12 08:19:43 The outVector of current task is: [3]
+2021/11/12 08:19:43 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705183804
+2021/11/12 08:19:43 The outVector of current task is: [4]
+2021/11/12 08:19:43 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705183804
+2021/11/12 08:19:43 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:43 The intVector of current task is: [0]
+2021/11/12 08:19:43 The bool val of task[0] is: true.
+2021/11/12 08:19:43 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:43 Prefix task of current task are all completed.
+2021/11/12 08:19:43 --------------Starting to run task[4] in time:1636705183804ms.
+2021/11/12 08:19:43 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:43 The intVector of current task is: [0]
+2021/11/12 08:19:43 The bool val of task[0] is: true.
+2021/11/12 08:19:43 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:43 Prefix task of current task are all completed.
+2021/11/12 08:19:43 --------------Starting to run task[1] in time:1636705183804ms.
+2021/11/12 08:19:43 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:43 The intVector of current task is: [0]
+2021/11/12 08:19:43 The bool val of task[0] is: true.
+2021/11/12 08:19:43 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:43 Prefix task of current task are all completed.
+2021/11/12 08:19:43 --------------Starting to run task[2] in time:1636705183804ms.
+2021/11/12 08:19:43 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:43 The intVector of current task is: [0]
+2021/11/12 08:19:43 The bool val of task[0] is: true.
+2021/11/12 08:19:43 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:43 Prefix task of current task are all completed.
+2021/11/12 08:19:43 --------------Starting to run task[3] in time:1636705183805ms.
+2021/11/12 08:19:43 This namespace workflow-1 is already exist.
+2021/11/12 08:19:43 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:19:43 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:43 There are 1 pods in current namespace:workflow-1
+2021/11/12 08:19:43 This is 22th task pod in all workflow namespaces.
+2021/11/12 08:19:43 This namespace workflow-1 is already exist.
+2021/11/12 08:19:43 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:19:43 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:43 There are 2 pods in current namespace:workflow-1
+2021/11/12 08:19:43 This is 23th task pod in all workflow namespaces.
+2021/11/12 08:19:43 This namespace workflow-1 is already exist.
+2021/11/12 08:19:43 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:19:43 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:44 There are 3 pods in current namespace:workflow-1
+2021/11/12 08:19:44 This is 24th task pod in all workflow namespaces.
+2021/11/12 08:19:44 This namespace workflow-1 is already exist.
+2021/11/12 08:19:44 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:19:44 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:45 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:19:45 This is 25th task pod in all workflow namespaces.
+2021/11/12 08:19:45 ----------------------------
+2021/11/12 08:19:45 --------------delete a pod at time: workflow-1-task-0 1636705185184
+2021/11/12 08:19:45 --------------add a pod[workflow-1-task-4] in time:1636705185184.
+2021/11/12 08:19:45 --------------add a pod[workflow-1-task-1] in time:1636705185184.
+2021/11/12 08:19:45 --------------add a pod[workflow-1-task-2] in time:1636705185185.
+2021/11/12 08:19:45 --------------add a pod[workflow-1-task-3] in time:1636705185185.
+2021/11/12 08:19:55 Running
+2021/11/12 08:19:55 Succeeded
+2021/11/12 08:19:55 workflow-1-task-4: pod is completed
+2021/11/12 08:19:55 Deleting taskPodName: workflow-1-task-4.
+2021/11/12 08:19:55 --------------Deleting taskPodName workflow-1-task-4 in time:1636705195736ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:19:55 This is the 22th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.227.
+2021/11/12 08:19:55 The bool val of current task[4] is: true.
+2021/11/12 08:19:55 Staring to trigger the next task container.
+2021/11/12 08:19:55 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:19:55 The outVector of current task is: [8]
+2021/11/12 08:19:55 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705195736
+2021/11/12 08:19:55 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:55 The intVector of current task is: [4]
+2021/11/12 08:19:55 The bool val of task[4] is: true.
+2021/11/12 08:19:55 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:55 Prefix task of current task are all completed.
+2021/11/12 08:19:55 --------------Starting to run task[8] in time:1636705195736ms.
+2021/11/12 08:19:55 This namespace workflow-1 is already exist.
+2021/11/12 08:19:55 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:19:55 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:55 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:19:55 This is 26th task pod in all workflow namespaces.
+2021/11/12 08:19:55 ----------------------------
+2021/11/12 08:19:55 --------------delete a pod at time: workflow-1-task-4 1636705195762
+2021/11/12 08:19:55 --------------add a pod[workflow-1-task-8] in time:1636705195762.
+2021/11/12 08:19:55 Running
+2021/11/12 08:19:55 Succeeded
+2021/11/12 08:19:55 workflow-1-task-2: pod is completed
+2021/11/12 08:19:55 Deleting taskPodName: workflow-1-task-2.
+2021/11/12 08:19:55 --------------Deleting taskPodName workflow-1-task-2 in time:1636705195845ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:19:55 This is the 23th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.230.
+2021/11/12 08:19:55 The bool val of current task[2] is: true.
+2021/11/12 08:19:55 Staring to trigger the next task container.
+2021/11/12 08:19:55 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:19:55 The outVector of current task is: [6]
+2021/11/12 08:19:55 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705195845
+2021/11/12 08:19:55 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:55 The intVector of current task is: [2]
+2021/11/12 08:19:55 The bool val of task[2] is: true.
+2021/11/12 08:19:55 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:55 Prefix task of current task are all completed.
+2021/11/12 08:19:55 --------------Starting to run task[6] in time:1636705195846ms.
+2021/11/12 08:19:55 This namespace workflow-1 is already exist.
+2021/11/12 08:19:55 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:19:55 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:55 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:19:55 This is 27th task pod in all workflow namespaces.
+2021/11/12 08:19:55 ----------------------------
+2021/11/12 08:19:55 --------------delete a pod at time: workflow-1-task-2 1636705195881
+2021/11/12 08:19:55 --------------add a pod[workflow-1-task-6] in time:1636705195881.
+2021/11/12 08:19:55 Running
+2021/11/12 08:19:55 Succeeded
+2021/11/12 08:19:55 workflow-1-task-1: pod is completed
+2021/11/12 08:19:55 Deleting taskPodName: workflow-1-task-1.
+2021/11/12 08:19:55 --------------Deleting taskPodName workflow-1-task-1 in time:1636705195911ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:19:55 This is the 24th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.232.
+2021/11/12 08:19:55 The bool val of current task[1] is: true.
+2021/11/12 08:19:55 Staring to trigger the next task container.
+2021/11/12 08:19:55 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:19:55 The outVector of current task is: [5]
+2021/11/12 08:19:55 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705195911
+2021/11/12 08:19:55 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:55 The intVector of current task is: [1]
+2021/11/12 08:19:55 The bool val of task[1] is: true.
+2021/11/12 08:19:55 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:55 Prefix task of current task are all completed.
+2021/11/12 08:19:55 --------------Starting to run task[5] in time:1636705195911ms.
+2021/11/12 08:19:56 This namespace workflow-1 is already exist.
+2021/11/12 08:19:56 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:19:56 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:56 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:19:56 This is 28th task pod in all workflow namespaces.
+2021/11/12 08:19:56 ----------------------------
+2021/11/12 08:19:56 --------------delete a pod at time: workflow-1-task-1 1636705196703
+2021/11/12 08:19:56 --------------add a pod[workflow-1-task-5] in time:1636705196703.
+2021/11/12 08:19:56 Running
+2021/11/12 08:19:56 Succeeded
+2021/11/12 08:19:56 workflow-1-task-3: pod is completed
+2021/11/12 08:19:56 Deleting taskPodName: workflow-1-task-3.
+2021/11/12 08:19:56 --------------Deleting taskPodName workflow-1-task-3 in time:1636705196929ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:19:56 This is the 25th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.228.
+2021/11/12 08:19:56 The bool val of current task[3] is: true.
+2021/11/12 08:19:56 Staring to trigger the next task container.
+2021/11/12 08:19:56 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:19:56 The outVector of current task is: [7]
+2021/11/12 08:19:56 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705196930
+2021/11/12 08:19:56 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:19:56 The intVector of current task is: [3]
+2021/11/12 08:19:56 The bool val of task[3] is: true.
+2021/11/12 08:19:56 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:19:56 Prefix task of current task are all completed.
+2021/11/12 08:19:56 --------------Starting to run task[7] in time:1636705196930ms.
+2021/11/12 08:19:57 This namespace workflow-1 is already exist.
+2021/11/12 08:19:57 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:19:57 Remaining resource suffices for creating task pods.
+2021/11/12 08:19:57 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:19:57 This is 29th task pod in all workflow namespaces.
+2021/11/12 08:19:57 ----------------------------
+2021/11/12 08:19:57 --------------delete a pod at time: workflow-1-task-3 1636705197711
+2021/11/12 08:19:57 --------------add a pod[workflow-1-task-7] in time:1636705197711.
+2021/11/12 08:20:07 Running
+2021/11/12 08:20:07 Succeeded
+2021/11/12 08:20:07 workflow-1-task-8: pod is completed
+2021/11/12 08:20:07 Deleting taskPodName: workflow-1-task-8.
+2021/11/12 08:20:07 --------------Deleting taskPodName workflow-1-task-8 in time:1636705207756ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:20:07 This is the 26th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.227.
+2021/11/12 08:20:07 The bool val of current task[8] is: true.
+2021/11/12 08:20:07 Staring to trigger the next task container.
+2021/11/12 08:20:07 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:07 The outVector of current task is: [12]
+2021/11/12 08:20:07 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705207756
+2021/11/12 08:20:07 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:07 The intVector of current task is: [8]
+2021/11/12 08:20:07 The bool val of task[8] is: true.
+2021/11/12 08:20:07 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:07 Prefix task of current task are all completed.
+2021/11/12 08:20:07 --------------Starting to run task[12] in time:1636705207756ms.
+2021/11/12 08:20:07 This namespace workflow-1 is already exist.
+2021/11/12 08:20:07 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:20:07 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:07 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:20:07 This is 30th task pod in all workflow namespaces.
+2021/11/12 08:20:07 ----------------------------
+2021/11/12 08:20:07 --------------delete a pod at time: workflow-1-task-8 1636705207796
+2021/11/12 08:20:07 --------------add a pod[workflow-1-task-12] in time:1636705207797.
+2021/11/12 08:20:07 Running
+2021/11/12 08:20:07 Succeeded
+2021/11/12 08:20:07 workflow-1-task-6: pod is completed
+2021/11/12 08:20:07 Deleting taskPodName: workflow-1-task-6.
+2021/11/12 08:20:07 --------------Deleting taskPodName workflow-1-task-6 in time:1636705207895ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:20:07 This is the 27th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.230.
+2021/11/12 08:20:07 The bool val of current task[6] is: true.
+2021/11/12 08:20:07 Staring to trigger the next task container.
+2021/11/12 08:20:07 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:07 The outVector of current task is: [10]
+2021/11/12 08:20:07 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705207895
+2021/11/12 08:20:07 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:07 The intVector of current task is: [6]
+2021/11/12 08:20:07 The bool val of task[6] is: true.
+2021/11/12 08:20:07 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:07 Prefix task of current task are all completed.
+2021/11/12 08:20:07 --------------Starting to run task[10] in time:1636705207895ms.
+2021/11/12 08:20:07 This namespace workflow-1 is already exist.
+2021/11/12 08:20:07 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:20:07 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:07 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:20:07 This is 31th task pod in all workflow namespaces.
+2021/11/12 08:20:07 ----------------------------
+2021/11/12 08:20:07 --------------delete a pod at time: workflow-1-task-6 1636705207927
+2021/11/12 08:20:07 --------------add a pod[workflow-1-task-10] in time:1636705207927.
+2021/11/12 08:20:08 Running
+2021/11/12 08:20:08 Succeeded
+2021/11/12 08:20:08 workflow-1-task-5: pod is completed
+2021/11/12 08:20:08 Deleting taskPodName: workflow-1-task-5.
+2021/11/12 08:20:08 --------------Deleting taskPodName workflow-1-task-5 in time:1636705208919ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:20:08 This is the 28th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.232.
+2021/11/12 08:20:08 The bool val of current task[5] is: true.
+2021/11/12 08:20:08 Staring to trigger the next task container.
+2021/11/12 08:20:08 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:08 The outVector of current task is: [9]
+2021/11/12 08:20:08 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705208919
+2021/11/12 08:20:08 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:08 The intVector of current task is: [5]
+2021/11/12 08:20:08 The bool val of task[5] is: true.
+2021/11/12 08:20:08 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:08 Prefix task of current task are all completed.
+2021/11/12 08:20:08 --------------Starting to run task[9] in time:1636705208919ms.
+2021/11/12 08:20:08 This namespace workflow-1 is already exist.
+2021/11/12 08:20:08 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:20:08 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:08 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:20:08 This is 32th task pod in all workflow namespaces.
+2021/11/12 08:20:08 ----------------------------
+2021/11/12 08:20:08 --------------delete a pod at time: workflow-1-task-5 1636705208953
+2021/11/12 08:20:08 --------------add a pod[workflow-1-task-9] in time:1636705208953.
+2021/11/12 08:20:09 Running
+2021/11/12 08:20:09 Succeeded
+2021/11/12 08:20:09 workflow-1-task-7: pod is completed
+2021/11/12 08:20:09 Deleting taskPodName: workflow-1-task-7.
+2021/11/12 08:20:09 --------------Deleting taskPodName workflow-1-task-7 in time:1636705209891ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:20:09 This is the 29th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.228.
+2021/11/12 08:20:09 The bool val of current task[7] is: true.
+2021/11/12 08:20:09 Staring to trigger the next task container.
+2021/11/12 08:20:09 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:09 The outVector of current task is: [11]
+2021/11/12 08:20:09 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705209891
+2021/11/12 08:20:09 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:09 The intVector of current task is: [7]
+2021/11/12 08:20:09 The bool val of task[7] is: true.
+2021/11/12 08:20:09 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:09 Prefix task of current task are all completed.
+2021/11/12 08:20:09 --------------Starting to run task[11] in time:1636705209891ms.
+2021/11/12 08:20:09 This namespace workflow-1 is already exist.
+2021/11/12 08:20:09 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:20:09 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:09 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:20:09 This is 33th task pod in all workflow namespaces.
+2021/11/12 08:20:09 ----------------------------
+2021/11/12 08:20:09 --------------delete a pod at time: workflow-1-task-7 1636705209910
+2021/11/12 08:20:09 --------------add a pod[workflow-1-task-11] in time:1636705209910.
+2021/11/12 08:20:19 Running
+2021/11/12 08:20:19 Succeeded
+2021/11/12 08:20:19 workflow-1-task-12: pod is completed
+2021/11/12 08:20:19 Deleting taskPodName: workflow-1-task-12.
+2021/11/12 08:20:19 --------------Deleting taskPodName workflow-1-task-12 in time:1636705219806ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:20:19 This is the 30th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.227.
+2021/11/12 08:20:19 The bool val of current task[12] is: true.
+2021/11/12 08:20:19 Staring to trigger the next task container.
+2021/11/12 08:20:19 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:19 The outVector of current task is: [16]
+2021/11/12 08:20:19 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705219807
+2021/11/12 08:20:19 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:19 The intVector of current task is: [12]
+2021/11/12 08:20:19 The bool val of task[12] is: true.
+2021/11/12 08:20:19 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:19 Prefix task of current task are all completed.
+2021/11/12 08:20:19 --------------Starting to run task[16] in time:1636705219807ms.
+2021/11/12 08:20:19 This namespace workflow-1 is already exist.
+2021/11/12 08:20:19 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:20:19 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:19 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:20:19 This is 34th task pod in all workflow namespaces.
+2021/11/12 08:20:19 ----------------------------
+2021/11/12 08:20:19 --------------delete a pod at time: workflow-1-task-12 1636705219840
+2021/11/12 08:20:19 --------------add a pod[workflow-1-task-16] in time:1636705219840.
+2021/11/12 08:20:19 Running
+2021/11/12 08:20:19 Succeeded
+2021/11/12 08:20:19 workflow-1-task-10: pod is completed
+2021/11/12 08:20:19 Deleting taskPodName: workflow-1-task-10.
+2021/11/12 08:20:19 --------------Deleting taskPodName workflow-1-task-10 in time:1636705219937ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:20:19 This is the 31th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.230.
+2021/11/12 08:20:19 The bool val of current task[10] is: true.
+2021/11/12 08:20:19 Staring to trigger the next task container.
+2021/11/12 08:20:19 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:19 The outVector of current task is: [14]
+2021/11/12 08:20:19 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705219938
+2021/11/12 08:20:19 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:19 The intVector of current task is: [10]
+2021/11/12 08:20:19 The bool val of task[10] is: true.
+2021/11/12 08:20:19 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:19 Prefix task of current task are all completed.
+2021/11/12 08:20:19 --------------Starting to run task[14] in time:1636705219938ms.
+2021/11/12 08:20:19 This namespace workflow-1 is already exist.
+2021/11/12 08:20:19 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:20:19 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:19 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:20:19 This is 35th task pod in all workflow namespaces.
+2021/11/12 08:20:19 ----------------------------
+2021/11/12 08:20:19 --------------delete a pod at time: workflow-1-task-10 1636705219991
+2021/11/12 08:20:19 --------------add a pod[workflow-1-task-14] in time:1636705219991.
+2021/11/12 08:20:20 Running
+2021/11/12 08:20:20 Succeeded
+2021/11/12 08:20:20 workflow-1-task-9: pod is completed
+2021/11/12 08:20:20 Deleting taskPodName: workflow-1-task-9.
+2021/11/12 08:20:20 --------------Deleting taskPodName workflow-1-task-9 in time:1636705220976ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:20:20 This is the 32th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.232.
+2021/11/12 08:20:20 The bool val of current task[9] is: true.
+2021/11/12 08:20:20 Staring to trigger the next task container.
+2021/11/12 08:20:20 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:20 The outVector of current task is: [13]
+2021/11/12 08:20:20 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705220977
+2021/11/12 08:20:20 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:20 The intVector of current task is: [9]
+2021/11/12 08:20:20 The bool val of task[9] is: true.
+2021/11/12 08:20:20 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:20 Prefix task of current task are all completed.
+2021/11/12 08:20:20 --------------Starting to run task[13] in time:1636705220977ms.
+2021/11/12 08:20:20 This namespace workflow-1 is already exist.
+2021/11/12 08:20:20 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:20:20 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:21 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:20:21 This is 36th task pod in all workflow namespaces.
+2021/11/12 08:20:21 ----------------------------
+2021/11/12 08:20:21 --------------delete a pod at time: workflow-1-task-9 1636705221007
+2021/11/12 08:20:21 --------------add a pod[workflow-1-task-13] in time:1636705221007.
+2021/11/12 08:20:21 Running
+2021/11/12 08:20:21 Succeeded
+2021/11/12 08:20:21 workflow-1-task-11: pod is completed
+2021/11/12 08:20:21 Deleting taskPodName: workflow-1-task-11.
+2021/11/12 08:20:21 --------------Deleting taskPodName workflow-1-task-11 in time:1636705221932ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:20:21 This is the 33th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.228.
+2021/11/12 08:20:21 The bool val of current task[11] is: true.
+2021/11/12 08:20:21 Staring to trigger the next task container.
+2021/11/12 08:20:21 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:21 The outVector of current task is: [15]
+2021/11/12 08:20:21 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705221932
+2021/11/12 08:20:21 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:21 The intVector of current task is: [11]
+2021/11/12 08:20:21 The bool val of task[11] is: true.
+2021/11/12 08:20:21 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:21 Prefix task of current task are all completed.
+2021/11/12 08:20:21 --------------Starting to run task[15] in time:1636705221932ms.
+2021/11/12 08:20:21 This namespace workflow-1 is already exist.
+2021/11/12 08:20:21 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:20:21 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:21 There are 4 pods in current namespace:workflow-1
+2021/11/12 08:20:21 This is 37th task pod in all workflow namespaces.
+2021/11/12 08:20:21 ----------------------------
+2021/11/12 08:20:21 --------------delete a pod at time: workflow-1-task-11 1636705221972
+2021/11/12 08:20:21 --------------add a pod[workflow-1-task-15] in time:1636705221972.
+2021/11/12 08:20:31 Running
+2021/11/12 08:20:31 Succeeded
+2021/11/12 08:20:31 workflow-1-task-16: pod is completed
+2021/11/12 08:20:31 Deleting taskPodName: workflow-1-task-16.
+2021/11/12 08:20:31 --------------Deleting taskPodName workflow-1-task-16 in time:1636705231833ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:20:31 This is the 34th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.227.
+2021/11/12 08:20:31 The bool val of current task[16] is: true.
+2021/11/12 08:20:31 Staring to trigger the next task container.
+2021/11/12 08:20:31 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:31 The outVector of current task is: [17]
+2021/11/12 08:20:31 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705231833
+2021/11/12 08:20:31 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:31 The intVector of current task is: [13]
+2021/11/12 08:20:31 The bool val of task[13] is: false.
+2021/11/12 08:20:31 The intVector of current task is: [14]
+2021/11/12 08:20:31 The bool val of task[14] is: false.
+2021/11/12 08:20:31 The intVector of current task is: [15]
+2021/11/12 08:20:31 The bool val of task[15] is: false.
+2021/11/12 08:20:31 The intVector of current task is: [16]
+2021/11/12 08:20:31 The bool val of task[16] is: true.
+2021/11/12 08:20:31 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:20:31 ----------------------------
+2021/11/12 08:20:31 --------------delete a pod at time: workflow-1-task-16 1636705231834
+2021/11/12 08:20:31 Running
+2021/11/12 08:20:31 Succeeded
+2021/11/12 08:20:31 workflow-1-task-14: pod is completed
+2021/11/12 08:20:31 Deleting taskPodName: workflow-1-task-14.
+2021/11/12 08:20:31 --------------Deleting taskPodName workflow-1-task-14 in time:1636705231952ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:20:31 This is the 35th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.230.
+2021/11/12 08:20:31 The bool val of current task[14] is: true.
+2021/11/12 08:20:31 Staring to trigger the next task container.
+2021/11/12 08:20:31 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:31 The outVector of current task is: [17]
+2021/11/12 08:20:31 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705231952
+2021/11/12 08:20:31 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:31 The intVector of current task is: [13]
+2021/11/12 08:20:31 The bool val of task[13] is: false.
+2021/11/12 08:20:31 The intVector of current task is: [14]
+2021/11/12 08:20:31 The bool val of task[14] is: true.
+2021/11/12 08:20:31 The intVector of current task is: [15]
+2021/11/12 08:20:31 The bool val of task[15] is: false.
+2021/11/12 08:20:31 The intVector of current task is: [16]
+2021/11/12 08:20:31 The bool val of task[16] is: true.
+2021/11/12 08:20:31 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:20:31 ----------------------------
+2021/11/12 08:20:31 --------------delete a pod at time: workflow-1-task-14 1636705231953
+2021/11/12 08:20:32 Running
+2021/11/12 08:20:32 Succeeded
+2021/11/12 08:20:32 workflow-1-task-13: pod is completed
+2021/11/12 08:20:32 Deleting taskPodName: workflow-1-task-13.
+2021/11/12 08:20:32 --------------Deleting taskPodName workflow-1-task-13 in time:1636705232986ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:20:32 This is the 36th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.232.
+2021/11/12 08:20:32 The bool val of current task[13] is: true.
+2021/11/12 08:20:32 Staring to trigger the next task container.
+2021/11/12 08:20:32 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:32 The outVector of current task is: [17]
+2021/11/12 08:20:32 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705232986
+2021/11/12 08:20:32 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:32 The intVector of current task is: [13]
+2021/11/12 08:20:32 The bool val of task[13] is: true.
+2021/11/12 08:20:32 The intVector of current task is: [14]
+2021/11/12 08:20:32 The bool val of task[14] is: true.
+2021/11/12 08:20:32 The intVector of current task is: [15]
+2021/11/12 08:20:32 The bool val of task[15] is: false.
+2021/11/12 08:20:32 The intVector of current task is: [16]
+2021/11/12 08:20:32 The bool val of task[16] is: true.
+2021/11/12 08:20:32 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:20:32 ----------------------------
+2021/11/12 08:20:32 --------------delete a pod at time: workflow-1-task-13 1636705232987
+2021/11/12 08:20:33 Running
+2021/11/12 08:20:33 Succeeded
+2021/11/12 08:20:33 workflow-1-task-15: pod is completed
+2021/11/12 08:20:33 Deleting taskPodName: workflow-1-task-15.
+2021/11/12 08:20:33 --------------Deleting taskPodName workflow-1-task-15 in time:1636705233962ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:20:33 This is the 37th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.228.
+2021/11/12 08:20:33 The bool val of current task[15] is: true.
+2021/11/12 08:20:33 Staring to trigger the next task container.
+2021/11/12 08:20:33 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:33 The outVector of current task is: [17]
+2021/11/12 08:20:33 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705233962
+2021/11/12 08:20:33 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:33 The intVector of current task is: [13]
+2021/11/12 08:20:33 The bool val of task[13] is: true.
+2021/11/12 08:20:33 The intVector of current task is: [14]
+2021/11/12 08:20:33 The bool val of task[14] is: true.
+2021/11/12 08:20:33 The intVector of current task is: [15]
+2021/11/12 08:20:33 The bool val of task[15] is: true.
+2021/11/12 08:20:33 The intVector of current task is: [16]
+2021/11/12 08:20:33 The bool val of task[16] is: true.
+2021/11/12 08:20:33 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:33 Prefix task of current task are all completed.
+2021/11/12 08:20:33 --------------Starting to run task[17] in time:1636705233962ms.
+2021/11/12 08:20:33 This namespace workflow-1 is already exist.
+2021/11/12 08:20:33 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:20:33 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:33 There are 1 pods in current namespace:workflow-1
+2021/11/12 08:20:33 This is 38th task pod in all workflow namespaces.
+2021/11/12 08:20:33 ----------------------------
+2021/11/12 08:20:33 --------------delete a pod at time: workflow-1-task-15 1636705233986
+2021/11/12 08:20:33 --------------add a pod[workflow-1-task-17] in time:1636705233986.
+2021/11/12 08:20:45 Running
+2021/11/12 08:20:45 Succeeded
+2021/11/12 08:20:45 workflow-1-task-17: pod is completed
+2021/11/12 08:20:45 Deleting taskPodName: workflow-1-task-17.
+2021/11/12 08:20:45 --------------Deleting taskPodName workflow-1-task-17 in time:1636705245984ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:20:45 This is the 38th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.230.
+2021/11/12 08:20:45 The bool val of current task[17] is: true.
+2021/11/12 08:20:45 Staring to trigger the next task container.
+2021/11/12 08:20:45 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:45 The outVector of current task is: [18]
+2021/11/12 08:20:45 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705245984
+2021/11/12 08:20:45 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:45 The intVector of current task is: [17]
+2021/11/12 08:20:45 The bool val of task[17] is: true.
+2021/11/12 08:20:45 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:45 Prefix task of current task are all completed.
+2021/11/12 08:20:45 --------------Starting to run task[18] in time:1636705245984ms.
+2021/11/12 08:20:46 This namespace workflow-1 is already exist.
+2021/11/12 08:20:46 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:20:46 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:46 There are 1 pods in current namespace:workflow-1
+2021/11/12 08:20:46 This is 39th task pod in all workflow namespaces.
+2021/11/12 08:20:46 ----------------------------
+2021/11/12 08:20:46 --------------delete a pod at time: workflow-1-task-17 1636705246031
+2021/11/12 08:20:46 --------------add a pod[workflow-1-task-18] in time:1636705246031.
+2021/11/12 08:20:57 Running
+2021/11/12 08:20:57 Succeeded
+2021/11/12 08:20:57 workflow-1-task-18: pod is completed
+2021/11/12 08:20:58 Deleting taskPodName: workflow-1-task-18.
+2021/11/12 08:20:58 --------------Deleting taskPodName workflow-1-task-18 in time:1636705258018ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:20:58 This is the 39th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.228.
+2021/11/12 08:20:58 The bool val of current task[18] is: true.
+2021/11/12 08:20:58 Staring to trigger the next task container.
+2021/11/12 08:20:58 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:20:58 The outVector of current task is: [19]
+2021/11/12 08:20:58 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705258018
+2021/11/12 08:20:58 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:20:58 The intVector of current task is: [18]
+2021/11/12 08:20:58 The bool val of task[18] is: true.
+2021/11/12 08:20:58 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:20:58 Prefix task of current task are all completed.
+2021/11/12 08:20:58 --------------Starting to run task[19] in time:1636705258018ms.
+2021/11/12 08:20:58 This namespace workflow-1 is already exist.
+2021/11/12 08:20:58 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:20:58 Remaining resource suffices for creating task pods.
+2021/11/12 08:20:58 There are 1 pods in current namespace:workflow-1
+2021/11/12 08:20:58 This is 40th task pod in all workflow namespaces.
+2021/11/12 08:20:58 ----------------------------
+2021/11/12 08:20:58 --------------delete a pod at time: workflow-1-task-18 1636705258045
+2021/11/12 08:20:58 --------------add a pod[workflow-1-task-19] in time:1636705258045.
+2021/11/12 08:21:10 Running
+2021/11/12 08:21:10 Succeeded
+2021/11/12 08:21:10 workflow-1-task-19: pod is completed
+2021/11/12 08:21:10 Deleting taskPodName: workflow-1-task-19.
+2021/11/12 08:21:10 --------------Deleting taskPodName workflow-1-task-19 in time:1636705270081ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:21:10 This is the 40th deleted workflow task pod in workflow-1 on Cluster node: 172.28.0.232.
+2021/11/12 08:21:10 Delete the Namespace: workflow-1.
+2021/11/12 08:21:10 --------------Delete the Namespace workflow-1 in time: 1636705270091ms.
+2021/11/12 08:21:10 The bool val of current task[19] is: true.
+2021/11/12 08:21:10 Staring to trigger the next task container.
+2021/11/12 08:21:10 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:10 ----------------------------
+2021/11/12 08:21:10 --------------delete a pod at time: workflow-1-task-19 1636705270091
+2021/11/12 08:21:21 --------------delete a namespace at time: workflow-1 1636705281147
+2021/11/12 08:21:21 10.68.148.175:7070
+2021/11/12 08:21:21 Dial Workflow Injector...
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281155ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-7 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 7 map[] [3] [11] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-7: order: 7 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281158ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-8 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 8 map[] [4] [12] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-8: order: 8 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281159ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-4 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 4 map[] [0] [8] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-4: order: 4 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281161ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-6 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 6 map[] [2] [10] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-6: order: 6 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281163ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-12 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 12 map[] [8] [16] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-12: order: 12 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281164ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-1 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 1 map[] [0] [5] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-1: order: 1 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281166ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-2 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 2 map[] [0] [6] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-2: order: 2 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281169ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-3 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 3 map[] [0] [7] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-3: order: 3 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281171ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-15 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 15 map[] [11] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-15: order: 15 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281172ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-16 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 16 map[] [12] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-16: order: 16 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281174ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-17 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 17 map[] [13 14 15 16] [18] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-17: order: 17 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281176ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-5 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 5 map[] [1] [9] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-5: order: 5 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281178ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-10 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 10 map[] [6] [14] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-10: order: 10 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281180ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-14 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 14 map[] [10] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-14: order: 14 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281182ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-13 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 13 map[] [9] [17] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-13: order: 13 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281183ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-18 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 18 map[] [17] [19] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-18: order: 18 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281185ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-19 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 19 map[] [18] [] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 The current taskName: workflow-2-task-19: order: 19 of workflow: workflow-2.
+2021/11/12 08:21:21 --------------------------------------------
+2021/11/12 08:21:21 --------------The reception time of this workflow task is: 1636705281187ms
+2021/11/12 08:21:21 {workflow-2 20 workflow-2-task-0 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 0 map[] [] [1 2 3 4] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:21 --------------Starting to run the first task [0] in current workflow is: 1636705281187ms
+2021/11/12 08:21:21 Creating Namespace workflow-2
+2021/11/12 08:21:21 Creating Namespaces...,this is 3th namespace.
+2021/11/12 08:21:21 Created Pvc workflow-2-pvc on 2021-11-12 08:21:21 +0000 UTC
+2021/11/12 08:21:21 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:21:21 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:22 --------------add a pod[workflow-2-task-0] in time:1636705282219.
+2021/11/12 08:21:22 There are 1 pods in current namespace:workflow-2
+2021/11/12 08:21:22 This is 41th task pod in all workflow namespaces.
+2021/11/12 08:21:22 This is the first task: workflow-2-task-0, order: 0 , workflow: workflow-2, InputVector: [], OuputVector: [1 2 3 4].
+2021/11/12 08:21:22 *************************************************
+2021/11/12 08:21:22 --------------The reception time of this workflow task is: 1636705282238ms
+2021/11/12 08:21:22 {workflow-2 20 workflow-2-task-9 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 9 map[] [5] [13] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:22 The current taskName: workflow-2-task-9: order: 9 of workflow: workflow-2.
+2021/11/12 08:21:22 --------------------------------------------
+2021/11/12 08:21:22 --------------The reception time of this workflow task is: 1636705282240ms
+2021/11/12 08:21:22 {workflow-2 20 workflow-2-task-11 harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest 1200 1200 11 map[] [7] [15] [-c 1 -m 100 -t 5 -i 3]}
+2021/11/12 08:21:22 The current taskName: workflow-2-task-11: order: 11 of workflow: workflow-2.
+2021/11/12 08:21:22 --------------------------------------------
+2021/11/12 08:21:22 true
+2021/11/12 08:21:22 --------------The next workflow is injected at time: 1636705282241
+2021/11/12 08:21:22 add a namespace: workflow-2
+2021/11/12 08:21:34 Running
+2021/11/12 08:21:34 Succeeded
+2021/11/12 08:21:34 workflow-2-task-0: pod is completed
+2021/11/12 08:21:34 Deleting taskPodName: workflow-2-task-0.
+2021/11/12 08:21:34 --------------Deleting taskPodName workflow-2-task-0 in time:1636705294087ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:21:34 This is the 41th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.230.
+2021/11/12 08:21:34 The bool val of current task[0] is: true.
+2021/11/12 08:21:34 Staring to trigger the next task container.
+2021/11/12 08:21:34 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:34 The outVector of current task is: [1]
+2021/11/12 08:21:34 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705294087
+2021/11/12 08:21:34 The outVector of current task is: [2]
+2021/11/12 08:21:34 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705294087
+2021/11/12 08:21:34 The outVector of current task is: [3]
+2021/11/12 08:21:34 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705294087
+2021/11/12 08:21:34 The outVector of current task is: [4]
+2021/11/12 08:21:34 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705294087
+2021/11/12 08:21:34 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:34 The intVector of current task is: [0]
+2021/11/12 08:21:34 The bool val of task[0] is: true.
+2021/11/12 08:21:34 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:34 Prefix task of current task are all completed.
+2021/11/12 08:21:34 --------------Starting to run task[4] in time:1636705294087ms.
+2021/11/12 08:21:34 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:34 The intVector of current task is: [0]
+2021/11/12 08:21:34 The bool val of task[0] is: true.
+2021/11/12 08:21:34 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:34 Prefix task of current task are all completed.
+2021/11/12 08:21:34 --------------Starting to run task[3] in time:1636705294088ms.
+2021/11/12 08:21:34 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:34 The intVector of current task is: [0]
+2021/11/12 08:21:34 The bool val of task[0] is: true.
+2021/11/12 08:21:34 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:34 Prefix task of current task are all completed.
+2021/11/12 08:21:34 --------------Starting to run task[1] in time:1636705294088ms.
+2021/11/12 08:21:34 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:34 The intVector of current task is: [0]
+2021/11/12 08:21:34 The bool val of task[0] is: true.
+2021/11/12 08:21:34 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:34 Prefix task of current task are all completed.
+2021/11/12 08:21:34 --------------Starting to run task[2] in time:1636705294088ms.
+2021/11/12 08:21:34 This namespace workflow-2 is already exist.
+2021/11/12 08:21:34 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:21:34 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:34 There are 1 pods in current namespace:workflow-2
+2021/11/12 08:21:34 This is 42th task pod in all workflow namespaces.
+2021/11/12 08:21:34 This namespace workflow-2 is already exist.
+2021/11/12 08:21:34 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:21:34 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:34 There are 2 pods in current namespace:workflow-2
+2021/11/12 08:21:34 This is 43th task pod in all workflow namespaces.
+2021/11/12 08:21:34 This namespace workflow-2 is already exist.
+2021/11/12 08:21:34 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:21:34 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:34 There are 3 pods in current namespace:workflow-2
+2021/11/12 08:21:34 This is 44th task pod in all workflow namespaces.
+2021/11/12 08:21:34 This namespace workflow-2 is already exist.
+2021/11/12 08:21:35 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:21:35 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:35 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:21:35 This is 45th task pod in all workflow namespaces.
+2021/11/12 08:21:35 ----------------------------
+2021/11/12 08:21:35 --------------delete a pod at time: workflow-2-task-0 1636705295471
+2021/11/12 08:21:35 --------------add a pod[workflow-2-task-4] in time:1636705295471.
+2021/11/12 08:21:35 --------------add a pod[workflow-2-task-3] in time:1636705295471.
+2021/11/12 08:21:35 --------------add a pod[workflow-2-task-1] in time:1636705295471.
+2021/11/12 08:21:35 --------------add a pod[workflow-2-task-2] in time:1636705295471.
+2021/11/12 08:21:45 Running
+2021/11/12 08:21:45 Succeeded
+2021/11/12 08:21:45 workflow-2-task-4: pod is completed
+2021/11/12 08:21:45 Deleting taskPodName: workflow-2-task-4.
+2021/11/12 08:21:45 --------------Deleting taskPodName workflow-2-task-4 in time:1636705305996ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:21:45 This is the 42th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.227.
+2021/11/12 08:21:45 The bool val of current task[4] is: true.
+2021/11/12 08:21:45 Staring to trigger the next task container.
+2021/11/12 08:21:45 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:45 The outVector of current task is: [8]
+2021/11/12 08:21:45 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705305996
+2021/11/12 08:21:45 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:45 The intVector of current task is: [4]
+2021/11/12 08:21:45 The bool val of task[4] is: true.
+2021/11/12 08:21:45 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:45 Prefix task of current task are all completed.
+2021/11/12 08:21:45 --------------Starting to run task[8] in time:1636705305996ms.
+2021/11/12 08:21:46 This namespace workflow-2 is already exist.
+2021/11/12 08:21:46 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:21:46 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:46 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:21:46 This is 46th task pod in all workflow namespaces.
+2021/11/12 08:21:46 ----------------------------
+2021/11/12 08:21:46 --------------delete a pod at time: workflow-2-task-4 1636705306031
+2021/11/12 08:21:46 --------------add a pod[workflow-2-task-8] in time:1636705306031.
+2021/11/12 08:21:46 Running
+2021/11/12 08:21:46 Succeeded
+2021/11/12 08:21:46 workflow-2-task-1: pod is completed
+2021/11/12 08:21:46 Deleting taskPodName: workflow-2-task-1.
+2021/11/12 08:21:46 --------------Deleting taskPodName workflow-2-task-1 in time:1636705306136ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:21:46 This is the 43th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.230.
+2021/11/12 08:21:46 The bool val of current task[1] is: true.
+2021/11/12 08:21:46 Staring to trigger the next task container.
+2021/11/12 08:21:46 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:46 The outVector of current task is: [5]
+2021/11/12 08:21:46 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705306136
+2021/11/12 08:21:46 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:46 The intVector of current task is: [1]
+2021/11/12 08:21:46 The bool val of task[1] is: true.
+2021/11/12 08:21:46 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:46 Prefix task of current task are all completed.
+2021/11/12 08:21:46 --------------Starting to run task[5] in time:1636705306136ms.
+2021/11/12 08:21:46 This namespace workflow-2 is already exist.
+2021/11/12 08:21:46 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:21:46 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:46 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:21:46 This is 47th task pod in all workflow namespaces.
+2021/11/12 08:21:46 ----------------------------
+2021/11/12 08:21:46 --------------delete a pod at time: workflow-2-task-1 1636705306177
+2021/11/12 08:21:46 Running
+2021/11/12 08:21:46 Succeeded
+2021/11/12 08:21:46 workflow-2-task-3: pod is completed
+2021/11/12 08:21:46 Deleting taskPodName: workflow-2-task-3.
+2021/11/12 08:21:46 --------------Deleting taskPodName workflow-2-task-3 in time:1636705306226ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:21:46 This is the 44th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.232.
+2021/11/12 08:21:46 The bool val of current task[3] is: true.
+2021/11/12 08:21:46 Staring to trigger the next task container.
+2021/11/12 08:21:46 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:46 The outVector of current task is: [7]
+2021/11/12 08:21:46 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705306226
+2021/11/12 08:21:46 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:46 The intVector of current task is: [3]
+2021/11/12 08:21:46 The bool val of task[3] is: true.
+2021/11/12 08:21:46 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:46 Prefix task of current task are all completed.
+2021/11/12 08:21:46 --------------Starting to run task[7] in time:1636705306226ms.
+2021/11/12 08:21:46 This namespace workflow-2 is already exist.
+2021/11/12 08:21:46 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:21:46 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:46 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:21:46 This is 48th task pod in all workflow namespaces.
+2021/11/12 08:21:46 ----------------------------
+2021/11/12 08:21:46 --------------add a pod[workflow-2-task-5] in time:1636705306978.
+2021/11/12 08:21:46 --------------delete a pod at time: workflow-2-task-3 1636705306978
+2021/11/12 08:21:46 --------------add a pod[workflow-2-task-7] in time:1636705306978.
+2021/11/12 08:21:47 Running
+2021/11/12 08:21:47 Succeeded
+2021/11/12 08:21:47 workflow-2-task-2: pod is completed
+2021/11/12 08:21:47 Deleting taskPodName: workflow-2-task-2.
+2021/11/12 08:21:47 --------------Deleting taskPodName workflow-2-task-2 in time:1636705307193ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:21:47 This is the 45th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.228.
+2021/11/12 08:21:47 The bool val of current task[2] is: true.
+2021/11/12 08:21:47 Staring to trigger the next task container.
+2021/11/12 08:21:47 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:47 The outVector of current task is: [6]
+2021/11/12 08:21:47 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705307193
+2021/11/12 08:21:47 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:47 The intVector of current task is: [2]
+2021/11/12 08:21:47 The bool val of task[2] is: true.
+2021/11/12 08:21:47 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:47 Prefix task of current task are all completed.
+2021/11/12 08:21:47 --------------Starting to run task[6] in time:1636705307193ms.
+2021/11/12 08:21:47 This namespace workflow-2 is already exist.
+2021/11/12 08:21:47 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:21:47 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:47 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:21:47 This is 49th task pod in all workflow namespaces.
+2021/11/12 08:21:47 ----------------------------
+2021/11/12 08:21:47 --------------delete a pod at time: workflow-2-task-2 1636705307976
+2021/11/12 08:21:47 --------------add a pod[workflow-2-task-6] in time:1636705307976.
+2021/11/12 08:21:58 Running
+2021/11/12 08:21:58 Succeeded
+2021/11/12 08:21:58 workflow-2-task-8: pod is completed
+2021/11/12 08:21:58 Deleting taskPodName: workflow-2-task-8.
+2021/11/12 08:21:58 --------------Deleting taskPodName workflow-2-task-8 in time:1636705318034ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:21:58 This is the 46th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.227.
+2021/11/12 08:21:58 The bool val of current task[8] is: true.
+2021/11/12 08:21:58 Staring to trigger the next task container.
+2021/11/12 08:21:58 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:58 The outVector of current task is: [12]
+2021/11/12 08:21:58 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705318034
+2021/11/12 08:21:58 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:58 The intVector of current task is: [8]
+2021/11/12 08:21:58 The bool val of task[8] is: true.
+2021/11/12 08:21:58 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:58 Prefix task of current task are all completed.
+2021/11/12 08:21:58 --------------Starting to run task[12] in time:1636705318034ms.
+2021/11/12 08:21:58 This namespace workflow-2 is already exist.
+2021/11/12 08:21:58 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:21:58 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:58 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:21:58 This is 50th task pod in all workflow namespaces.
+2021/11/12 08:21:58 ----------------------------
+2021/11/12 08:21:58 --------------delete a pod at time: workflow-2-task-8 1636705318057
+2021/11/12 08:21:58 --------------add a pod[workflow-2-task-12] in time:1636705318057.
+2021/11/12 08:21:59 Running
+2021/11/12 08:21:59 Succeeded
+2021/11/12 08:21:59 workflow-2-task-7: pod is completed
+2021/11/12 08:21:59 Deleting taskPodName: workflow-2-task-7.
+2021/11/12 08:21:59 --------------Deleting taskPodName workflow-2-task-7 in time:1636705319171ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:21:59 This is the 47th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.230.
+2021/11/12 08:21:59 The bool val of current task[7] is: true.
+2021/11/12 08:21:59 Staring to trigger the next task container.
+2021/11/12 08:21:59 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:59 The outVector of current task is: [11]
+2021/11/12 08:21:59 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705319171
+2021/11/12 08:21:59 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:59 The intVector of current task is: [7]
+2021/11/12 08:21:59 The bool val of task[7] is: true.
+2021/11/12 08:21:59 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:59 Prefix task of current task are all completed.
+2021/11/12 08:21:59 --------------Starting to run task[11] in time:1636705319171ms.
+2021/11/12 08:21:59 This namespace workflow-2 is already exist.
+2021/11/12 08:21:59 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:21:59 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:59 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:21:59 This is 51th task pod in all workflow namespaces.
+2021/11/12 08:21:59 ----------------------------
+2021/11/12 08:21:59 --------------delete a pod at time: workflow-2-task-7 1636705319216
+2021/11/12 08:21:59 Running
+2021/11/12 08:21:59 Succeeded
+2021/11/12 08:21:59 workflow-2-task-5: pod is completed
+2021/11/12 08:21:59 Deleting taskPodName: workflow-2-task-5.
+2021/11/12 08:21:59 --------------Deleting taskPodName workflow-2-task-5 in time:1636705319241ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:21:59 This is the 48th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.232.
+2021/11/12 08:21:59 The bool val of current task[5] is: true.
+2021/11/12 08:21:59 Staring to trigger the next task container.
+2021/11/12 08:21:59 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:21:59 The outVector of current task is: [9]
+2021/11/12 08:21:59 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705319241
+2021/11/12 08:21:59 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:21:59 The intVector of current task is: [5]
+2021/11/12 08:21:59 The bool val of task[5] is: true.
+2021/11/12 08:21:59 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:21:59 Prefix task of current task are all completed.
+2021/11/12 08:21:59 --------------Starting to run task[9] in time:1636705319241ms.
+2021/11/12 08:21:59 This namespace workflow-2 is already exist.
+2021/11/12 08:21:59 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:21:59 Remaining resource suffices for creating task pods.
+2021/11/12 08:21:59 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:21:59 This is 52th task pod in all workflow namespaces.
+2021/11/12 08:21:59 ----------------------------
+2021/11/12 08:21:59 --------------add a pod[workflow-2-task-11] in time:1636705319310.
+2021/11/12 08:21:59 --------------delete a pod at time: workflow-2-task-5 1636705319310
+2021/11/12 08:21:59 --------------add a pod[workflow-2-task-9] in time:1636705319310.
+2021/11/12 08:22:00 Running
+2021/11/12 08:22:00 Succeeded
+2021/11/12 08:22:00 workflow-2-task-6: pod is completed
+2021/11/12 08:22:00 Deleting taskPodName: workflow-2-task-6.
+2021/11/12 08:22:00 --------------Deleting taskPodName workflow-2-task-6 in time:1636705320174ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:22:00 This is the 49th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.228.
+2021/11/12 08:22:00 The bool val of current task[6] is: true.
+2021/11/12 08:22:00 Staring to trigger the next task container.
+2021/11/12 08:22:00 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:00 The outVector of current task is: [10]
+2021/11/12 08:22:00 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705320174
+2021/11/12 08:22:00 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:00 The intVector of current task is: [6]
+2021/11/12 08:22:00 The bool val of task[6] is: true.
+2021/11/12 08:22:00 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:22:00 Prefix task of current task are all completed.
+2021/11/12 08:22:00 --------------Starting to run task[10] in time:1636705320174ms.
+2021/11/12 08:22:00 This namespace workflow-2 is already exist.
+2021/11/12 08:22:00 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:22:00 Remaining resource suffices for creating task pods.
+2021/11/12 08:22:00 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:22:00 This is 53th task pod in all workflow namespaces.
+2021/11/12 08:22:00 ----------------------------
+2021/11/12 08:22:00 --------------delete a pod at time: workflow-2-task-6 1636705320211
+2021/11/12 08:22:00 --------------add a pod[workflow-2-task-10] in time:1636705320211.
+2021/11/12 08:22:10 Running
+2021/11/12 08:22:10 Succeeded
+2021/11/12 08:22:10 workflow-2-task-12: pod is completed
+2021/11/12 08:22:10 Deleting taskPodName: workflow-2-task-12.
+2021/11/12 08:22:10 --------------Deleting taskPodName workflow-2-task-12 in time:1636705330060ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:22:10 This is the 50th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.227.
+2021/11/12 08:22:10 The bool val of current task[12] is: true.
+2021/11/12 08:22:10 Staring to trigger the next task container.
+2021/11/12 08:22:10 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:10 The outVector of current task is: [16]
+2021/11/12 08:22:10 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705330062
+2021/11/12 08:22:10 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:10 The intVector of current task is: [12]
+2021/11/12 08:22:10 The bool val of task[12] is: true.
+2021/11/12 08:22:10 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:22:10 Prefix task of current task are all completed.
+2021/11/12 08:22:10 --------------Starting to run task[16] in time:1636705330062ms.
+2021/11/12 08:22:10 This namespace workflow-2 is already exist.
+2021/11/12 08:22:10 map[172.28.0.227:{7875 15257} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:22:10 Remaining resource suffices for creating task pods.
+2021/11/12 08:22:10 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:22:10 This is 54th task pod in all workflow namespaces.
+2021/11/12 08:22:10 ----------------------------
+2021/11/12 08:22:10 --------------delete a pod at time: workflow-2-task-12 1636705330092
+2021/11/12 08:22:10 --------------add a pod[workflow-2-task-16] in time:1636705330092.
+2021/11/12 08:22:11 Running
+2021/11/12 08:22:11 Succeeded
+2021/11/12 08:22:11 workflow-2-task-9: pod is completed
+2021/11/12 08:22:11 Deleting taskPodName: workflow-2-task-9.
+2021/11/12 08:22:11 --------------Deleting taskPodName workflow-2-task-9 in time:1636705331201ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:22:11 This is the 51th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.230.
+2021/11/12 08:22:11 The bool val of current task[9] is: true.
+2021/11/12 08:22:11 Staring to trigger the next task container.
+2021/11/12 08:22:11 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:11 The outVector of current task is: [13]
+2021/11/12 08:22:11 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705331201
+2021/11/12 08:22:11 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:11 The intVector of current task is: [9]
+2021/11/12 08:22:11 The bool val of task[9] is: true.
+2021/11/12 08:22:11 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:22:11 Prefix task of current task are all completed.
+2021/11/12 08:22:11 --------------Starting to run task[13] in time:1636705331201ms.
+2021/11/12 08:22:11 This namespace workflow-2 is already exist.
+2021/11/12 08:22:11 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:22:11 Remaining resource suffices for creating task pods.
+2021/11/12 08:22:11 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:22:11 This is 55th task pod in all workflow namespaces.
+2021/11/12 08:22:11 ----------------------------
+2021/11/12 08:22:11 --------------delete a pod at time: workflow-2-task-9 1636705331235
+2021/11/12 08:22:11 Running
+2021/11/12 08:22:11 Succeeded
+2021/11/12 08:22:11 workflow-2-task-11: pod is completed
+2021/11/12 08:22:11 Deleting taskPodName: workflow-2-task-11.
+2021/11/12 08:22:11 --------------Deleting taskPodName workflow-2-task-11 in time:1636705331264ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:22:11 This is the 52th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.232.
+2021/11/12 08:22:11 The bool val of current task[11] is: true.
+2021/11/12 08:22:11 Staring to trigger the next task container.
+2021/11/12 08:22:11 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:11 The outVector of current task is: [15]
+2021/11/12 08:22:11 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705331264
+2021/11/12 08:22:11 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:11 The intVector of current task is: [11]
+2021/11/12 08:22:11 The bool val of task[11] is: true.
+2021/11/12 08:22:11 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:22:11 Prefix task of current task are all completed.
+2021/11/12 08:22:11 --------------Starting to run task[15] in time:1636705331264ms.
+2021/11/12 08:22:11 This namespace workflow-2 is already exist.
+2021/11/12 08:22:11 map[172.28.0.227:{6675 14057} 172.28.0.228:{6675 14057} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:22:11 Remaining resource suffices for creating task pods.
+2021/11/12 08:22:11 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:22:11 This is 56th task pod in all workflow namespaces.
+2021/11/12 08:22:11 ----------------------------
+2021/11/12 08:22:11 --------------add a pod[workflow-2-task-13] in time:1636705331296.
+2021/11/12 08:22:11 --------------delete a pod at time: workflow-2-task-11 1636705331296
+2021/11/12 08:22:11 --------------add a pod[workflow-2-task-15] in time:1636705331296.
+2021/11/12 08:22:12 Running
+2021/11/12 08:22:12 Succeeded
+2021/11/12 08:22:12 workflow-2-task-10: pod is completed
+2021/11/12 08:22:12 Deleting taskPodName: workflow-2-task-10.
+2021/11/12 08:22:12 --------------Deleting taskPodName workflow-2-task-10 in time:1636705332202ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:22:12 This is the 53th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.228.
+2021/11/12 08:22:12 The bool val of current task[10] is: true.
+2021/11/12 08:22:12 Staring to trigger the next task container.
+2021/11/12 08:22:12 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:12 The outVector of current task is: [14]
+2021/11/12 08:22:12 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705332203
+2021/11/12 08:22:12 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:12 The intVector of current task is: [10]
+2021/11/12 08:22:12 The bool val of task[10] is: true.
+2021/11/12 08:22:12 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:22:12 Prefix task of current task are all completed.
+2021/11/12 08:22:12 --------------Starting to run task[14] in time:1636705332203ms.
+2021/11/12 08:22:12 This namespace workflow-2 is already exist.
+2021/11/12 08:22:12 map[172.28.0.227:{6675 14057} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{6675 14057} 172.28.0.231:{7775 15187} 172.28.0.232:{6675 14057}]
+2021/11/12 08:22:12 Remaining resource suffices for creating task pods.
+2021/11/12 08:22:12 There are 4 pods in current namespace:workflow-2
+2021/11/12 08:22:12 This is 57th task pod in all workflow namespaces.
+2021/11/12 08:22:12 ----------------------------
+2021/11/12 08:22:12 --------------delete a pod at time: workflow-2-task-10 1636705332227
+2021/11/12 08:22:12 --------------add a pod[workflow-2-task-14] in time:1636705332227.
+2021/11/12 08:22:22 Running
+2021/11/12 08:22:22 Succeeded
+2021/11/12 08:22:22 workflow-2-task-16: pod is completed
+2021/11/12 08:22:22 Deleting taskPodName: workflow-2-task-16.
+2021/11/12 08:22:22 --------------Deleting taskPodName workflow-2-task-16 in time:1636705342104ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:22:22 This is the 54th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.227.
+2021/11/12 08:22:22 The bool val of current task[16] is: true.
+2021/11/12 08:22:22 Staring to trigger the next task container.
+2021/11/12 08:22:22 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:22 The outVector of current task is: [17]
+2021/11/12 08:22:22 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705342104
+2021/11/12 08:22:22 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:22 The intVector of current task is: [13]
+2021/11/12 08:22:22 The bool val of task[13] is: false.
+2021/11/12 08:22:22 The intVector of current task is: [14]
+2021/11/12 08:22:22 The bool val of task[14] is: false.
+2021/11/12 08:22:22 The intVector of current task is: [15]
+2021/11/12 08:22:22 The bool val of task[15] is: false.
+2021/11/12 08:22:22 The intVector of current task is: [16]
+2021/11/12 08:22:22 The bool val of task[16] is: true.
+2021/11/12 08:22:22 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:22:22 ----------------------------
+2021/11/12 08:22:22 --------------delete a pod at time: workflow-2-task-16 1636705342105
+2021/11/12 08:22:23 Running
+2021/11/12 08:22:23 Succeeded
+2021/11/12 08:22:23 workflow-2-task-15: pod is completed
+2021/11/12 08:22:23 Deleting taskPodName: workflow-2-task-15.
+2021/11/12 08:22:23 --------------Deleting taskPodName workflow-2-task-15 in time:1636705343223ms on Cluster Node: 172.28.0.230.
+2021/11/12 08:22:23 This is the 55th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.230.
+2021/11/12 08:22:23 The bool val of current task[15] is: true.
+2021/11/12 08:22:23 Staring to trigger the next task container.
+2021/11/12 08:22:23 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:23 The outVector of current task is: [17]
+2021/11/12 08:22:23 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705343223
+2021/11/12 08:22:23 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:23 The intVector of current task is: [13]
+2021/11/12 08:22:23 The bool val of task[13] is: false.
+2021/11/12 08:22:23 The intVector of current task is: [14]
+2021/11/12 08:22:23 The bool val of task[14] is: false.
+2021/11/12 08:22:23 The intVector of current task is: [15]
+2021/11/12 08:22:23 The bool val of task[15] is: true.
+2021/11/12 08:22:23 The intVector of current task is: [16]
+2021/11/12 08:22:23 The bool val of task[16] is: true.
+2021/11/12 08:22:23 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:22:23 ----------------------------
+2021/11/12 08:22:23 --------------delete a pod at time: workflow-2-task-15 1636705343224
+2021/11/12 08:22:23 Running
+2021/11/12 08:22:23 Succeeded
+2021/11/12 08:22:23 workflow-2-task-13: pod is completed
+2021/11/12 08:22:23 Deleting taskPodName: workflow-2-task-13.
+2021/11/12 08:22:23 --------------Deleting taskPodName workflow-2-task-13 in time:1636705343290ms on Cluster Node: 172.28.0.232.
+2021/11/12 08:22:23 This is the 56th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.232.
+2021/11/12 08:22:23 The bool val of current task[13] is: true.
+2021/11/12 08:22:23 Staring to trigger the next task container.
+2021/11/12 08:22:23 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:23 The outVector of current task is: [17]
+2021/11/12 08:22:23 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705343290
+2021/11/12 08:22:23 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:23 The intVector of current task is: [13]
+2021/11/12 08:22:23 The bool val of task[13] is: true.
+2021/11/12 08:22:23 The intVector of current task is: [14]
+2021/11/12 08:22:23 The bool val of task[14] is: false.
+2021/11/12 08:22:23 The intVector of current task is: [15]
+2021/11/12 08:22:23 The bool val of task[15] is: true.
+2021/11/12 08:22:23 The intVector of current task is: [16]
+2021/11/12 08:22:23 The bool val of task[16] is: true.
+2021/11/12 08:22:23 The intVector accumulatedBoolVar of current task is: [false]
+2021/11/12 08:22:23 ----------------------------
+2021/11/12 08:22:23 --------------delete a pod at time: workflow-2-task-13 1636705343291
+2021/11/12 08:22:24 Running
+2021/11/12 08:22:24 Succeeded
+2021/11/12 08:22:24 workflow-2-task-14: pod is completed
+2021/11/12 08:22:24 Deleting taskPodName: workflow-2-task-14.
+2021/11/12 08:22:24 --------------Deleting taskPodName workflow-2-task-14 in time:1636705344229ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:22:24 This is the 57th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.228.
+2021/11/12 08:22:24 The bool val of current task[14] is: true.
+2021/11/12 08:22:24 Staring to trigger the next task container.
+2021/11/12 08:22:24 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:24 The outVector of current task is: [17]
+2021/11/12 08:22:24 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705344229
+2021/11/12 08:22:24 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:24 The intVector of current task is: [13]
+2021/11/12 08:22:24 The bool val of task[13] is: true.
+2021/11/12 08:22:24 The intVector of current task is: [14]
+2021/11/12 08:22:24 The bool val of task[14] is: true.
+2021/11/12 08:22:24 The intVector of current task is: [15]
+2021/11/12 08:22:24 The bool val of task[15] is: true.
+2021/11/12 08:22:24 The intVector of current task is: [16]
+2021/11/12 08:22:24 The bool val of task[16] is: true.
+2021/11/12 08:22:24 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:22:24 Prefix task of current task are all completed.
+2021/11/12 08:22:24 --------------Starting to run task[17] in time:1636705344230ms.
+2021/11/12 08:22:24 This namespace workflow-2 is already exist.
+2021/11/12 08:22:24 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:22:24 Remaining resource suffices for creating task pods.
+2021/11/12 08:22:24 There are 1 pods in current namespace:workflow-2
+2021/11/12 08:22:24 This is 58th task pod in all workflow namespaces.
+2021/11/12 08:22:24 ----------------------------
+2021/11/12 08:22:24 --------------delete a pod at time: workflow-2-task-14 1636705344251
+2021/11/12 08:22:24 --------------add a pod[workflow-2-task-17] in time:1636705344251.
+2021/11/12 08:22:36 Running
+2021/11/12 08:22:36 Succeeded
+2021/11/12 08:22:36 workflow-2-task-17: pod is completed
+2021/11/12 08:22:36 Deleting taskPodName: workflow-2-task-17.
+2021/11/12 08:22:36 --------------Deleting taskPodName workflow-2-task-17 in time:1636705356132ms on Cluster Node: 172.28.0.227.
+2021/11/12 08:22:36 This is the 58th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.227.
+2021/11/12 08:22:36 The bool val of current task[17] is: true.
+2021/11/12 08:22:36 Staring to trigger the next task container.
+2021/11/12 08:22:36 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:36 The outVector of current task is: [18]
+2021/11/12 08:22:36 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705356132
+2021/11/12 08:22:36 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:36 The intVector of current task is: [17]
+2021/11/12 08:22:36 The bool val of task[17] is: true.
+2021/11/12 08:22:36 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:22:36 Prefix task of current task are all completed.
+2021/11/12 08:22:36 --------------Starting to run task[18] in time:1636705356132ms.
+2021/11/12 08:22:36 This namespace workflow-2 is already exist.
+2021/11/12 08:22:36 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:22:36 Remaining resource suffices for creating task pods.
+2021/11/12 08:22:36 There are 1 pods in current namespace:workflow-2
+2021/11/12 08:22:36 This is 59th task pod in all workflow namespaces.
+2021/11/12 08:22:36 ----------------------------
+2021/11/12 08:22:36 --------------delete a pod at time: workflow-2-task-17 1636705356162
+2021/11/12 08:22:36 --------------add a pod[workflow-2-task-18] in time:1636705356162.
+2021/11/12 08:22:48 Running
+2021/11/12 08:22:48 Succeeded
+2021/11/12 08:22:48 workflow-2-task-18: pod is completed
+2021/11/12 08:22:48 Deleting taskPodName: workflow-2-task-18.
+2021/11/12 08:22:48 --------------Deleting taskPodName workflow-2-task-18 in time:1636705368317ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:22:48 This is the 59th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.228.
+2021/11/12 08:22:48 The bool val of current task[18] is: true.
+2021/11/12 08:22:48 Staring to trigger the next task container.
+2021/11/12 08:22:48 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:22:48 The outVector of current task is: [19]
+2021/11/12 08:22:48 --------------Start time for goroutine in CreateTaskforScheduleNextBatch in time: 1636705368317
+2021/11/12 08:22:48 Enter CreateTaskforScheduleNextBatch function...
+2021/11/12 08:22:48 The intVector of current task is: [18]
+2021/11/12 08:22:48 The bool val of task[18] is: true.
+2021/11/12 08:22:48 The intVector accumulatedBoolVar of current task is: [true]
+2021/11/12 08:22:48 Prefix task of current task are all completed.
+2021/11/12 08:22:48 --------------Starting to run task[19] in time:1636705368317ms.
+2021/11/12 08:22:48 This namespace workflow-2 is already exist.
+2021/11/12 08:22:48 map[172.28.0.227:{7875 15257} 172.28.0.228:{7875 15257} 172.28.0.229:{7875 15257} 172.28.0.230:{7875 15257} 172.28.0.231:{7775 15187} 172.28.0.232:{7875 15257}]
+2021/11/12 08:22:48 Remaining resource suffices for creating task pods.
+2021/11/12 08:22:48 There are 1 pods in current namespace:workflow-2
+2021/11/12 08:22:48 This is 60th task pod in all workflow namespaces.
+2021/11/12 08:22:48 ----------------------------
+2021/11/12 08:22:48 --------------delete a pod at time: workflow-2-task-18 1636705368335
+2021/11/12 08:22:48 --------------add a pod[workflow-2-task-19] in time:1636705368335.
+2021/11/12 08:23:00 Running
+2021/11/12 08:23:00 Succeeded
+2021/11/12 08:23:00 workflow-2-task-19: pod is completed
+2021/11/12 08:23:00 Deleting taskPodName: workflow-2-task-19.
+2021/11/12 08:23:00 --------------Deleting taskPodName workflow-2-task-19 in time:1636705380343ms on Cluster Node: 172.28.0.228.
+2021/11/12 08:23:00 This is the 60th deleted workflow task pod in workflow-2 on Cluster node: 172.28.0.228.
+2021/11/12 08:23:00 Delete the Namespace: workflow-2.
+2021/11/12 08:23:00 --------------Delete the Namespace workflow-2 in time: 1636705380348ms.
+2021/11/12 08:23:00 The bool val of current task[19] is: true.
+2021/11/12 08:23:00 Staring to trigger the next task container.
+2021/11/12 08:23:00 Enter ScheduleNextBatchTaskContainer function...
+2021/11/12 08:23:00 ----------------------------
+2021/11/12 08:23:00 --------------delete a pod at time: workflow-2-task-19 1636705380348
+2021/11/12 08:23:11 --------------delete a namespace at time: workflow-2 1636705391402
+2021/11/12 08:23:11 10.68.148.175:7070
+2021/11/12 08:23:11 Dial Workflow Injector...
+2021/11/12 08:23:11 Task container builder's work is over.

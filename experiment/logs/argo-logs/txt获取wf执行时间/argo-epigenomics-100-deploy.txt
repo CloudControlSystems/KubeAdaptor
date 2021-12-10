@@ -1,0 +1,1326 @@
+clusterrole.rbac.authorization.k8s.io/argo-test created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin0 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin1 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin2 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin3 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin4 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin5 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin6 created
+service/resource-usage created
+deployment.apps/resource-usage-deploy created
+configmap/cluster-information created
+:----------
+i:0
+Name:                epigenomics-task-tljqw
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:10:59 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-tljqw
+Workflow 'epigenomics-task-tljqw' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:214
+:----------
+i:1
+Name:                epigenomics-task-8h7km
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:14:33 +0800 (now)
+Progress:            
+:epigenomics-task-8h7km
+Workflow 'epigenomics-task-8h7km' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:207
+:----------
+i:2
+Name:                epigenomics-task-7pzdc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:18:01 +0800 (now)
+Progress:            
+:epigenomics-task-7pzdc
+Workflow 'epigenomics-task-7pzdc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:209
+:----------
+i:3
+Name:                epigenomics-task-q6hqf
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:21:29 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-q6hqf
+Workflow 'epigenomics-task-q6hqf' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:194
+:----------
+i:4
+Name:                epigenomics-task-jkdh8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:24:43 +0800 (now)
+Progress:            
+:epigenomics-task-jkdh8
+Workflow 'epigenomics-task-jkdh8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:186
+:----------
+i:5
+Name:                epigenomics-task-sdhbt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:27:49 +0800 (now)
+Progress:            
+:epigenomics-task-sdhbt
+Workflow 'epigenomics-task-sdhbt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:----------
+i:6
+Name:                epigenomics-task-57n7p
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:31:00 +0800 (now)
+Progress:            
+:epigenomics-task-57n7p
+Workflow 'epigenomics-task-57n7p' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:177
+:----------
+i:7
+Name:                epigenomics-task-qp6rm
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:33:58 +0800 (now)
+Progress:            
+:epigenomics-task-qp6rm
+Workflow 'epigenomics-task-qp6rm' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:193
+:----------
+i:8
+Name:                epigenomics-task-rflpn
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:37:10 +0800 (now)
+Progress:            
+:epigenomics-task-rflpn
+Workflow 'epigenomics-task-rflpn' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:184
+:----------
+i:9
+Name:                epigenomics-task-lnglh
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:40:14 +0800 (now)
+Progress:            
+:epigenomics-task-lnglh
+Workflow 'epigenomics-task-lnglh' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:187
+:----------
+i:10
+Name:                epigenomics-task-4b254
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:43:21 +0800 (now)
+Progress:            
+:epigenomics-task-4b254
+Workflow 'epigenomics-task-4b254' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:11
+Name:                epigenomics-task-bmln2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:46:33 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-bmln2
+Workflow 'epigenomics-task-bmln2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:214
+:----------
+i:12
+Name:                epigenomics-task-hccmv
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:50:07 +0800 (now)
+Progress:            
+:epigenomics-task-hccmv
+Workflow 'epigenomics-task-hccmv' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:214
+:----------
+i:13
+Name:                epigenomics-task-q9xwp
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:53:42 +0800 (now)
+Progress:            
+:epigenomics-task-q9xwp
+Workflow 'epigenomics-task-q9xwp' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:207
+:----------
+i:14
+Name:                epigenomics-task-dngrd
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Sun Nov 28 23:57:09 +0800 (now)
+Progress:            
+:epigenomics-task-dngrd
+Workflow 'epigenomics-task-dngrd' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:220
+:----------
+i:15
+Name:                epigenomics-task-h956m
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:00:48 +0800 (now)
+Progress:            
+:epigenomics-task-h956m
+Workflow 'epigenomics-task-h956m' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:198
+:----------
+i:16
+Name:                epigenomics-task-x5pm2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:04:06 +0800 (now)
+Progress:            
+:epigenomics-task-x5pm2
+Workflow 'epigenomics-task-x5pm2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:196
+:----------
+i:17
+Name:                epigenomics-task-crxqs
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:07:22 +0800 (now)
+Progress:            
+:epigenomics-task-crxqs
+Workflow 'epigenomics-task-crxqs' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:18
+Name:                epigenomics-task-mq7c5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:10:34 +0800 (now)
+Progress:            
+:epigenomics-task-mq7c5
+Workflow 'epigenomics-task-mq7c5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:203
+:----------
+i:19
+Name:                epigenomics-task-gk62s
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:13:57 +0800 (now)
+Progress:            
+:epigenomics-task-gk62s
+Workflow 'epigenomics-task-gk62s' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:190
+:----------
+i:20
+Name:                epigenomics-task-6m8z5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:17:07 +0800 (now)
+Progress:            
+:epigenomics-task-6m8z5
+Workflow 'epigenomics-task-6m8z5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:217
+:----------
+i:21
+Name:                epigenomics-task-9t79f
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:20:44 +0800 (now)
+Progress:            
+:epigenomics-task-9t79f
+Workflow 'epigenomics-task-9t79f' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:216
+:----------
+i:22
+Name:                epigenomics-task-h89kk
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:24:20 +0800 (now)
+Progress:            
+:epigenomics-task-h89kk
+Workflow 'epigenomics-task-h89kk' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:193
+:----------
+i:23
+Name:                epigenomics-task-z7htc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:27:33 +0800 (now)
+Progress:            
+:epigenomics-task-z7htc
+Workflow 'epigenomics-task-z7htc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:231
+:----------
+i:24
+Name:                epigenomics-task-cnwx8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:31:24 +0800 (now)
+Progress:            
+:epigenomics-task-cnwx8
+Workflow 'epigenomics-task-cnwx8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:208
+:----------
+i:25
+Name:                epigenomics-task-s2v7j
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:34:52 +0800 (now)
+Progress:            
+:epigenomics-task-s2v7j
+Workflow 'epigenomics-task-s2v7j' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:206
+:----------
+i:26
+Name:                epigenomics-task-6zksc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:38:18 +0800 (now)
+Progress:            
+:epigenomics-task-6zksc
+Workflow 'epigenomics-task-6zksc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:185
+:----------
+i:27
+Name:                epigenomics-task-l77ms
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:41:23 +0800 (now)
+Progress:            
+:epigenomics-task-l77ms
+Workflow 'epigenomics-task-l77ms' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:200
+:----------
+i:28
+Name:                epigenomics-task-q5p4p
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:44:43 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-q5p4p
+Workflow 'epigenomics-task-q5p4p' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:202
+:----------
+i:29
+Name:                epigenomics-task-qjtxk
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:48:05 +0800 (now)
+Progress:            
+:epigenomics-task-qjtxk
+Workflow 'epigenomics-task-qjtxk' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:189
+:----------
+i:30
+Name:                epigenomics-task-x7bmg
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:51:14 +0800 (now)
+Progress:            
+:epigenomics-task-x7bmg
+Workflow 'epigenomics-task-x7bmg' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:202
+:----------
+i:31
+Name:                epigenomics-task-qzqq2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:54:37 +0800 (now)
+Progress:            
+:epigenomics-task-qzqq2
+Workflow 'epigenomics-task-qzqq2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:213
+:----------
+i:32
+Name:                epigenomics-task-2s4qk
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 00:58:09 +0800 (now)
+Progress:            
+:epigenomics-task-2s4qk
+Workflow 'epigenomics-task-2s4qk' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:33
+Name:                epigenomics-task-vjj8s
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:01:21 +0800 (now)
+Progress:            
+:epigenomics-task-vjj8s
+Workflow 'epigenomics-task-vjj8s' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:186
+:----------
+i:34
+Name:                epigenomics-task-fjx55
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:04:27 +0800 (now)
+Progress:            
+:epigenomics-task-fjx55
+Workflow 'epigenomics-task-fjx55' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:204
+:----------
+i:35
+Name:                epigenomics-task-cgw8d
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:07:51 +0800 (now)
+Progress:            
+:epigenomics-task-cgw8d
+Workflow 'epigenomics-task-cgw8d' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:195
+:----------
+i:36
+Name:                epigenomics-task-9zf8n
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:11:07 +0800 (now)
+Progress:            
+:epigenomics-task-9zf8n
+Workflow 'epigenomics-task-9zf8n' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:173
+:----------
+i:37
+Name:                epigenomics-task-2brkx
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:13:59 +0800 (now)
+Progress:            
+:epigenomics-task-2brkx
+Workflow 'epigenomics-task-2brkx' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:210
+:----------
+i:38
+Name:                epigenomics-task-p6zr5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:17:29 +0800 (now)
+Progress:            
+:epigenomics-task-p6zr5
+Workflow 'epigenomics-task-p6zr5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:39
+Name:                epigenomics-task-rd5rs
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:20:41 +0800 (now)
+Progress:            
+:epigenomics-task-rd5rs
+Workflow 'epigenomics-task-rd5rs' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:187
+:----------
+i:40
+Name:                epigenomics-task-rzrj9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:23:48 +0800 (now)
+Progress:            
+:epigenomics-task-rzrj9
+Workflow 'epigenomics-task-rzrj9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:180
+:----------
+i:41
+Name:                epigenomics-task-8cn6h
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:26:48 +0800 (now)
+Progress:            
+:epigenomics-task-8cn6h
+Workflow 'epigenomics-task-8cn6h' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:194
+:----------
+i:42
+Name:                epigenomics-task-n7d5f
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:30:02 +0800 (now)
+Progress:            
+:epigenomics-task-n7d5f
+Workflow 'epigenomics-task-n7d5f' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:185
+:----------
+i:43
+Name:                epigenomics-task-2c2zv
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:33:07 +0800 (now)
+Progress:            
+:epigenomics-task-2c2zv
+Workflow 'epigenomics-task-2c2zv' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:207
+:----------
+i:44
+Name:                epigenomics-task-2d4vj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:36:34 +0800 (now)
+Progress:            
+:epigenomics-task-2d4vj
+Workflow 'epigenomics-task-2d4vj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:209
+:----------
+i:45
+Name:                epigenomics-task-dkxgr
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:40:03 +0800 (now)
+Progress:            
+:epigenomics-task-dkxgr
+Workflow 'epigenomics-task-dkxgr' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:203
+:----------
+i:46
+Name:                epigenomics-task-hvntc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:43:26 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-hvntc
+Workflow 'epigenomics-task-hvntc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:204
+:----------
+i:47
+Name:                epigenomics-task-q5vbv
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:46:50 +0800 (now)
+Progress:            
+:epigenomics-task-q5vbv
+Workflow 'epigenomics-task-q5vbv' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:----------
+i:48
+Name:                epigenomics-task-dcwkp
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:50:01 +0800 (now)
+Progress:            
+:epigenomics-task-dcwkp
+Workflow 'epigenomics-task-dcwkp' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:49
+Name:                epigenomics-task-wmsbg
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:53:18 +0800 (now)
+Progress:            
+:epigenomics-task-wmsbg
+Workflow 'epigenomics-task-wmsbg' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:202
+:----------
+i:50
+Name:                epigenomics-task-ptwtl
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 01:56:40 +0800 (now)
+Progress:            
+:epigenomics-task-ptwtl
+Workflow 'epigenomics-task-ptwtl' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:204
+:----------
+i:51
+Name:                epigenomics-task-75cx4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:00:04 +0800 (now)
+Progress:            
+:epigenomics-task-75cx4
+Workflow 'epigenomics-task-75cx4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:202
+:----------
+i:52
+Name:                epigenomics-task-7shgl
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:03:26 +0800 (now)
+Progress:            
+:epigenomics-task-7shgl
+Workflow 'epigenomics-task-7shgl' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:53
+Name:                epigenomics-task-pm65d
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:06:38 +0800 (now)
+Progress:            
+:epigenomics-task-pm65d
+Workflow 'epigenomics-task-pm65d' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:187
+:----------
+i:54
+Name:                epigenomics-task-8cs68
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:09:45 +0800 (now)
+Progress:            
+:epigenomics-task-8cs68
+Workflow 'epigenomics-task-8cs68' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:202
+:----------
+i:55
+Name:                epigenomics-task-js79c
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:13:07 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-js79c
+Workflow 'epigenomics-task-js79c' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:214
+:----------
+i:56
+Name:                epigenomics-task-nv2mb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:16:41 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-nv2mb
+Workflow 'epigenomics-task-nv2mb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:182
+:----------
+i:57
+Name:                epigenomics-task-l26rw
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:19:43 +0800 (now)
+Progress:            
+:epigenomics-task-l26rw
+Workflow 'epigenomics-task-l26rw' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:195
+:----------
+i:58
+Name:                epigenomics-task-sqcm5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:22:58 +0800 (now)
+Progress:            
+:epigenomics-task-sqcm5
+Workflow 'epigenomics-task-sqcm5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:176
+:----------
+i:59
+Name:                epigenomics-task-6m5g4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:25:54 +0800 (now)
+Progress:            
+:epigenomics-task-6m5g4
+Workflow 'epigenomics-task-6m5g4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:193
+:----------
+i:60
+Name:                epigenomics-task-kqbj2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:29:07 +0800 (now)
+Progress:            
+:epigenomics-task-kqbj2
+Workflow 'epigenomics-task-kqbj2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:180
+:----------
+i:61
+Name:                epigenomics-task-qf82c
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:32:07 +0800 (now)
+Progress:            
+:epigenomics-task-qf82c
+Workflow 'epigenomics-task-qf82c' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:182
+:----------
+i:62
+Name:                epigenomics-task-qfn25
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:35:09 +0800 (now)
+Progress:            
+:epigenomics-task-qfn25
+Workflow 'epigenomics-task-qfn25' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:201
+:----------
+i:63
+Name:                epigenomics-task-tlcnv
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:38:31 +0800 (now)
+Progress:            
+:epigenomics-task-tlcnv
+Workflow 'epigenomics-task-tlcnv' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:182
+:----------
+i:64
+Name:                epigenomics-task-hrt87
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:41:32 +0800 (now)
+Progress:            
+:epigenomics-task-hrt87
+Workflow 'epigenomics-task-hrt87' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:206
+:----------
+i:65
+Name:                epigenomics-task-xrm9c
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:44:59 +0800 (now)
+Progress:            
+:epigenomics-task-xrm9c
+Workflow 'epigenomics-task-xrm9c' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:190
+:----------
+i:66
+Name:                epigenomics-task-8kvkk
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:48:08 +0800 (now)
+Progress:            
+:epigenomics-task-8kvkk
+Workflow 'epigenomics-task-8kvkk' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:198
+:----------
+i:67
+Name:                epigenomics-task-w95kt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:51:26 +0800 (now)
+Progress:            
+:epigenomics-task-w95kt
+Workflow 'epigenomics-task-w95kt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:196
+:----------
+i:68
+Name:                epigenomics-task-gzr9q
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:54:42 +0800 (now)
+Progress:            
+:epigenomics-task-gzr9q
+Workflow 'epigenomics-task-gzr9q' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:188
+:----------
+i:69
+Name:                epigenomics-task-vfkgx
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 02:57:50 +0800 (now)
+Progress:            
+:epigenomics-task-vfkgx
+Workflow 'epigenomics-task-vfkgx' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:206
+:----------
+i:70
+Name:                epigenomics-task-vb9tf
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:01:16 +0800 (now)
+Progress:            
+:epigenomics-task-vb9tf
+Workflow 'epigenomics-task-vb9tf' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:184
+:----------
+i:71
+Name:                epigenomics-task-j2p8g
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:04:21 +0800 (now)
+Progress:            
+:epigenomics-task-j2p8g
+Workflow 'epigenomics-task-j2p8g' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:72
+Name:                epigenomics-task-j7hh4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:07:32 +0800 (now)
+Progress:            
+:epigenomics-task-j7hh4
+Workflow 'epigenomics-task-j7hh4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:182
+:----------
+i:73
+Name:                epigenomics-task-24knn
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:10:34 +0800 (now)
+Progress:            
+:epigenomics-task-24knn
+Workflow 'epigenomics-task-24knn' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:203
+:----------
+i:74
+Name:                epigenomics-task-mt959
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:13:57 +0800 (now)
+Progress:            
+:epigenomics-task-mt959
+Workflow 'epigenomics-task-mt959' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:213
+:----------
+i:75
+Name:                epigenomics-task-tnm8z
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:17:30 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-tnm8z
+Workflow 'epigenomics-task-tnm8z' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:195
+:----------
+i:76
+Name:                epigenomics-task-8tnmb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:20:45 +0800 (now)
+Progress:            
+:epigenomics-task-8tnmb
+Workflow 'epigenomics-task-8tnmb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:203
+:----------
+i:77
+Name:                epigenomics-task-l27t5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:24:08 +0800 (now)
+Progress:            
+:epigenomics-task-l27t5
+Workflow 'epigenomics-task-l27t5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:78
+Name:                epigenomics-task-mdg6h
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:27:25 +0800 (now)
+Progress:            
+:epigenomics-task-mdg6h
+Workflow 'epigenomics-task-mdg6h' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:204
+:----------
+i:79
+Name:                epigenomics-task-bbmqs
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:30:49 +0800 (now)
+Progress:            
+:epigenomics-task-bbmqs
+Workflow 'epigenomics-task-bbmqs' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:80
+Name:                epigenomics-task-ctg6w
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:34:06 +0800 (now)
+Progress:            
+:epigenomics-task-ctg6w
+Workflow 'epigenomics-task-ctg6w' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:198
+:----------
+i:81
+Name:                epigenomics-task-pj9xc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:37:24 +0800 (now)
+Progress:            
+:epigenomics-task-pj9xc
+Workflow 'epigenomics-task-pj9xc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:186
+:----------
+i:82
+Name:                epigenomics-task-npgz2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:40:30 +0800 (now)
+Progress:            
+:epigenomics-task-npgz2
+Workflow 'epigenomics-task-npgz2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:213
+:----------
+i:83
+Name:                epigenomics-task-c47rh
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:44:03 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-c47rh
+Workflow 'epigenomics-task-c47rh' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:182
+:----------
+i:84
+Name:                epigenomics-task-x7wxv
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:47:06 +0800 (now)
+Progress:            
+:epigenomics-task-x7wxv
+Workflow 'epigenomics-task-x7wxv' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:183
+:----------
+i:85
+Name:                epigenomics-task-s65ck
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:50:08 +0800 (now)
+Progress:            
+:epigenomics-task-s65ck
+Workflow 'epigenomics-task-s65ck' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:206
+:----------
+i:86
+Name:                epigenomics-task-mq62f
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:53:34 +0800 (now)
+Progress:            
+:epigenomics-task-mq62f
+Workflow 'epigenomics-task-mq62f' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:208
+:----------
+i:87
+Name:                epigenomics-task-cx458
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 03:57:02 +0800 (now)
+Progress:            
+:epigenomics-task-cx458
+Workflow 'epigenomics-task-cx458' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:203
+:----------
+i:88
+Name:                epigenomics-task-wd5hd
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:00:25 +0800 (now)
+Progress:            
+:epigenomics-task-wd5hd
+Workflow 'epigenomics-task-wd5hd' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:183
+:----------
+i:89
+Name:                epigenomics-task-8t6xh
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:03:28 +0800 (now)
+Progress:            
+:epigenomics-task-8t6xh
+Workflow 'epigenomics-task-8t6xh' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:202
+:----------
+i:90
+Name:                epigenomics-task-4jr2s
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:06:50 +0800 (now)
+Progress:            
+:epigenomics-task-4jr2s
+Workflow 'epigenomics-task-4jr2s' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:192
+:----------
+i:91
+Name:                epigenomics-task-568h7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:10:02 +0800 (now)
+Progress:            
+:epigenomics-task-568h7
+Workflow 'epigenomics-task-568h7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:213
+:----------
+i:92
+Name:                epigenomics-task-cc7kx
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:13:35 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-cc7kx
+Workflow 'epigenomics-task-cc7kx' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:198
+:----------
+i:93
+Name:                epigenomics-task-qv8fl
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:16:53 +0800 (now)
+Progress:            
+:epigenomics-task-qv8fl
+Workflow 'epigenomics-task-qv8fl' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:----------
+i:94
+Name:                epigenomics-task-h2cch
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:20:04 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-h2cch
+Workflow 'epigenomics-task-h2cch' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:197
+:----------
+i:95
+Name:                epigenomics-task-fwt6l
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:23:21 +0800 (now)
+Progress:            
+:epigenomics-task-fwt6l
+Workflow 'epigenomics-task-fwt6l' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:203
+:----------
+i:96
+Name:                epigenomics-task-2tls6
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:26:44 +0800 (1 second ago)
+Progress:            
+:epigenomics-task-2tls6
+Workflow 'epigenomics-task-2tls6' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:204
+:----------
+i:97
+Name:                epigenomics-task-dd4pt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:30:08 +0800 (now)
+Progress:            
+:epigenomics-task-dd4pt
+Workflow 'epigenomics-task-dd4pt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:205
+:----------
+i:98
+Name:                epigenomics-task-l9zlc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:33:33 +0800 (now)
+Progress:            
+:epigenomics-task-l9zlc
+Workflow 'epigenomics-task-l9zlc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:173
+:----------
+i:99
+Name:                epigenomics-task-6m7d8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Mon Nov 29 04:36:26 +0800 (now)
+Progress:            
+:epigenomics-task-6m7d8
+Workflow 'epigenomics-task-6m7d8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:191
+:172.28.0.104
+:copy resourceUsage's log successful.
+
+-------------------------------------------------------- 
+username: root  password: bit123  port: 22  timeout=
+command: 
+Remote exec command script
+--------------------------------------------------------
+
+172.28.0.103
+172.28.0.104
+172.28.0.105
+172.28.0.106
+172.28.0.107
+172.28.0.108

@@ -1,0 +1,7 @@
+k8s-node 172.28.0.227 root bit123
+k8s-node 172.28.0.228 root bit123
+k8s-node 172.28.0.229 root bit123
+k8s-node 172.28.0.230 root bit123
+k8s-node 172.28.0.231 root bit123
+k8s-node 172.28.0.232 root bit123
+

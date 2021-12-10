@@ -1,0 +1,365 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: task-container-builder
+  labels:
+    app: task-container-builder
+spec:
+  selector:
+    app: builder
+  ports:
+    - port: 7070
+      protocol: TCP
+      targetPort: 7070
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: task-container-builder-deploy
+  namespace: default
+  labels:
+    app: grpc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: builder
+  template:
+    metadata:
+      labels:
+        app: builder
+    spec:
+      volumes:
+        - name: log-volume
+          hostPath:
+            path: /home
+        - name: config-volume
+          hostPath:
+            path: /etc/kubernetes
+        - name: current-pem-volume
+          hostPath:
+            path: /etc/kubernetes/ssl
+      #        - name: server-ca-volume
+      #          hostPath:
+      #            path: /etc/etcd/ssl
+      containers:
+        - name: task-container-builder-ctr
+          #image: 192.168.6.90/workflow/resource-allocator:latest
+          #image: shanchenggang/task-container-builder:v6.0
+          image: harbor.cloudcontrolsystems.cn/shanchenggang/task-container-builder:v6.0
+          #imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 7070
+              hostPort: 7070
+          volumeMounts:
+            - name: log-volume
+              mountPath: /home
+            - name: config-volume
+              mountPath: /etc/kubernetes
+            - name: current-pem-volume
+              mountPath: /etc/kubernetes/ssl
+          #            - name: server-ca-volume
+          #              mountPath: /etc/etcd/ssl
+          env:
+            #            - name: ETCD_HOST
+            #              valueFrom:
+            #                configMapKeyRef:
+            #                  name: cluster-info
+            #                  key: etcd.host
+            #            - name: ETCD_PORT
+            #              valueFrom:
+            #                configMapKeyRef:
+            #                  name: cluster-info
+            #                  key: etcd.port
+            - name: MASTER_IP
+              valueFrom:
+                configMapKeyRef:
+                  name: cluster-info
+                  key: master.ip
+            - name: GATHER_TIME
+              valueFrom:
+                configMapKeyRef:
+                  name: cluster-info
+                  key: gather.time
+            - name: NODE_NUM
+              valueFrom:
+                configMapKeyRef:
+                  name: cluster-info
+                  key: node.num
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  labels:
+    app: grpc
+  name: cluster-info
+  namespace: default
+data:
+  #Please change to your cluster Master address
+  #etcd.host: 192.168.6.109
+  #etcd.port: "2379"
+  #Please change to your cluster Master address
+  master.ip: 0.0.0.0
+  #the number of cluster node
+  node.num: "6"
+  #the time interval of gathering data
+  gather.time: "500"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: workflow-injector
+  labels:
+    app: workflow-injector
+spec:
+  selector:
+    app: injector
+  ports:
+    - port: 7070
+      protocol: TCP
+      targetPort: 7070
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: workflow-injector-deploy
+  namespace: default
+  labels:
+    app: injector
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: injector
+  template:
+    metadata:
+      labels:
+        app: injector
+    spec:
+      containers:
+        - name: workflow-injector-ctr
+          #image: 192.168.6.90/workflow/resource-allocator:latest
+          #image: shanchenggang/workflow-injector:v6.0
+          image: harbor.cloudcontrolsystems.cn/shanchenggang/workflow-injector:v6.0
+          #imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
+          command: [ "./workflowInjector" ]
+          args: [ "100" ]
+          ports:
+            - containerPort: 7070
+              hostPort: 7070
+          env:
+            - name: TASK_NUMBERS
+              valueFrom:
+                configMapKeyRef:
+                  name: workflow-inject
+                  key: task.numbers
+          volumeMounts:
+            - name: dependency-volume
+              mountPath: /config
+      volumes:
+        - name: dependency-volume
+          configMap:
+            name: dependency-inject
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  labels:
+    app: inject
+  name: workflow-inject
+  namespace: default
+data:
+  task.numbers: "22"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  labels:
+    app: config
+  name: dependency-inject
+  namespace: default
+data:
+  dependency.json: |
+    {
+      "0": {
+          "input": [],
+          "output": ["1","2"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "1": {
+          "input": ["0"],
+          "output": ["3","4","5","6"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "2": {
+          "input": ["0"],
+    	  "output": ["7","8","9","10"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "3": {
+          "input": ["1"],
+    	  "output": ["11","12"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "4": {
+    	  "input": ["1"],
+    	  "output": ["11","13"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "5": {
+    	  "input": ["1"],
+    	  "output": ["11","14"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "6": {
+    	  "input": ["1"],
+    	  "output": ["11","15"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "7": {
+    	  "input": ["2"],
+    	  "output": ["11","16"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "8": {
+    	  "input": ["2"],
+    	  "output": ["11","17"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "9": {
+    	  "input": ["2"],
+    	  "output": ["11","18"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "10": {
+    	  "input": ["2"],
+    	  "output": ["11","19"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "11": {
+    	  "input": ["3","4","5","6","7","8","9","10"],
+    	  "output": ["21"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "12": {
+    	  "input": ["3"],
+    	  "output": ["20"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "13": {
+    	  "input": ["4"],
+    	  "output": ["20"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "14": {
+    	  "input": ["5"],
+    	  "output": ["20"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "15": {
+    	  "input": ["6"],
+    	  "output": ["20"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "16": {
+    	  "input": ["7"],
+    	  "output": ["20"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "17": {
+    	  "input": ["8"],
+    	  "output": ["20"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "18": {
+    	  "input": ["9"],
+    	  "output": ["20"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "19": {
+    	  "input": ["10"],
+    	  "output": ["20"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "20": {
+    	  "input": ["12","13","14","15","16","17","18","19"],
+    	  "output": ["21"],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      },
+      "21": {
+    	  "input": ["11","20"],
+    	  "output": [],
+          "image": ["harbor.cloudcontrolsystems.cn/shanchenggang/task-emulator:latest"],
+          "cpuNum": ["1200"],
+          "memNum": ["1200"],
+          "args": ["-c","1","-m","100","-t","5","-i","3"]
+      }
+    }
+
+
+

@@ -1,0 +1,1326 @@
+clusterrole.rbac.authorization.k8s.io/argo-test created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin0 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin1 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin2 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin3 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin4 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin5 created
+clusterrolebinding.rbac.authorization.k8s.io/cloud-workflow-admin6 created
+service/resource-usage created
+deployment.apps/resource-usage-deploy created
+configmap/cluster-information created
+:----------
+i:0
+Name:                montage-task-22z2d
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 06:41:31 +0800 (now)
+Progress:            
+:montage-task-22z2d
+Workflow 'montage-task-22z2d' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:236
+:----------
+i:1
+Name:                montage-task-5mtdb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 06:45:27 +0800 (now)
+Progress:            
+:montage-task-5mtdb
+Workflow 'montage-task-5mtdb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:223
+:----------
+i:2
+Name:                montage-task-q78z6
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 06:49:10 +0800 (now)
+Progress:            
+:montage-task-q78z6
+Workflow 'montage-task-q78z6' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:233
+:----------
+i:3
+Name:                montage-task-rttmb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 06:53:03 +0800 (now)
+Progress:            
+:montage-task-rttmb
+Workflow 'montage-task-rttmb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:221
+:----------
+i:4
+Name:                montage-task-57gtb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 06:56:44 +0800 (now)
+Progress:            
+:montage-task-57gtb
+Workflow 'montage-task-57gtb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:229
+:----------
+i:5
+Name:                montage-task-9vpw8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:00:33 +0800 (now)
+Progress:            
+:montage-task-9vpw8
+Workflow 'montage-task-9vpw8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:235
+:----------
+i:6
+Name:                montage-task-qxzzn
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:04:28 +0800 (1 second ago)
+Progress:            
+:montage-task-qxzzn
+Workflow 'montage-task-qxzzn' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:234
+:----------
+i:7
+Name:                montage-task-q5j7z
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:08:22 +0800 (now)
+Progress:            
+:montage-task-q5j7z
+Workflow 'montage-task-q5j7z' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:215
+:----------
+i:8
+Name:                montage-task-cqgsq
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:11:57 +0800 (now)
+Progress:            
+:montage-task-cqgsq
+Workflow 'montage-task-cqgsq' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:217
+:----------
+i:9
+Name:                montage-task-ld9bk
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:15:34 +0800 (now)
+Progress:            
+:montage-task-ld9bk
+Workflow 'montage-task-ld9bk' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:223
+:----------
+i:10
+Name:                montage-task-r54ct
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:19:17 +0800 (now)
+Progress:            
+:montage-task-r54ct
+Workflow 'montage-task-r54ct' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:216
+:----------
+i:11
+Name:                montage-task-zrdv6
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:22:53 +0800 (now)
+Progress:            
+:montage-task-zrdv6
+Workflow 'montage-task-zrdv6' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:235
+:----------
+i:12
+Name:                montage-task-rvhkr
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:26:48 +0800 (now)
+Progress:            
+:montage-task-rvhkr
+Workflow 'montage-task-rvhkr' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:236
+:----------
+i:13
+Name:                montage-task-pr22h
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:30:44 +0800 (now)
+Progress:            
+:montage-task-pr22h
+Workflow 'montage-task-pr22h' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:254
+:----------
+i:14
+Name:                montage-task-w5ztd
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:34:58 +0800 (now)
+Progress:            
+:montage-task-w5ztd
+Workflow 'montage-task-w5ztd' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:241
+:----------
+i:15
+Name:                montage-task-sl4xj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:38:59 +0800 (now)
+Progress:            
+:montage-task-sl4xj
+Workflow 'montage-task-sl4xj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:237
+:----------
+i:16
+Name:                montage-task-gk7mj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:42:57 +0800 (now)
+Progress:            
+:montage-task-gk7mj
+Workflow 'montage-task-gk7mj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:217
+:----------
+i:17
+Name:                montage-task-f7m7p
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:46:33 +0800 (now)
+Progress:            
+:montage-task-f7m7p
+Workflow 'montage-task-f7m7p' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:239
+:----------
+i:18
+Name:                montage-task-k667p
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:50:32 +0800 (now)
+Progress:            
+:montage-task-k667p
+Workflow 'montage-task-k667p' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:228
+:----------
+i:19
+Name:                montage-task-jqxc5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:54:20 +0800 (now)
+Progress:            
+:montage-task-jqxc5
+Workflow 'montage-task-jqxc5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:215
+:----------
+i:20
+Name:                montage-task-dtbd8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 07:57:55 +0800 (now)
+Progress:            
+:montage-task-dtbd8
+Workflow 'montage-task-dtbd8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:214
+:----------
+i:21
+Name:                montage-task-4vzmd
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:01:29 +0800 (now)
+Progress:            
+:montage-task-4vzmd
+Workflow 'montage-task-4vzmd' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:228
+:----------
+i:22
+Name:                montage-task-kwqmf
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:05:17 +0800 (1 second ago)
+Progress:            
+:montage-task-kwqmf
+Workflow 'montage-task-kwqmf' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:240
+:----------
+i:23
+Name:                montage-task-2pkkt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:09:17 +0800 (1 second ago)
+Progress:            
+:montage-task-2pkkt
+Workflow 'montage-task-2pkkt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:259
+:----------
+i:24
+Name:                montage-task-ctn72
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:13:36 +0800 (now)
+Progress:            
+:montage-task-ctn72
+Workflow 'montage-task-ctn72' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:255
+:----------
+i:25
+Name:                montage-task-hw5fg
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:17:51 +0800 (1 second ago)
+Progress:            
+:montage-task-hw5fg
+Workflow 'montage-task-hw5fg' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:231
+:----------
+i:26
+Name:                montage-task-8r27v
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:21:43 +0800 (now)
+Progress:            
+:montage-task-8r27v
+Workflow 'montage-task-8r27v' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:236
+:----------
+i:27
+Name:                montage-task-6vww7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:25:38 +0800 (now)
+Progress:            
+:montage-task-6vww7
+Workflow 'montage-task-6vww7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:224
+:----------
+i:28
+Name:                montage-task-wvn2s
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:29:23 +0800 (now)
+Progress:            
+:montage-task-wvn2s
+Workflow 'montage-task-wvn2s' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:230
+:----------
+i:29
+Name:                montage-task-wxct4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:33:12 +0800 (now)
+Progress:            
+:montage-task-wxct4
+Workflow 'montage-task-wxct4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:238
+:----------
+i:30
+Name:                montage-task-mpkxt
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:37:10 +0800 (now)
+Progress:            
+:montage-task-mpkxt
+Workflow 'montage-task-mpkxt' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:222
+:----------
+i:31
+Name:                montage-task-7n9lr
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:40:52 +0800 (now)
+Progress:            
+:montage-task-7n9lr
+Workflow 'montage-task-7n9lr' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:210
+:----------
+i:32
+Name:                montage-task-f5xwr
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:44:22 +0800 (now)
+Progress:            
+:montage-task-f5xwr
+Workflow 'montage-task-f5xwr' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:213
+:----------
+i:33
+Name:                montage-task-5jbfz
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:47:55 +0800 (now)
+Progress:            
+:montage-task-5jbfz
+Workflow 'montage-task-5jbfz' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:227
+:----------
+i:34
+Name:                montage-task-x8kkd
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:51:42 +0800 (now)
+Progress:            
+:montage-task-x8kkd
+Workflow 'montage-task-x8kkd' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:213
+:----------
+i:35
+Name:                montage-task-4whr6
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:55:15 +0800 (now)
+Progress:            
+:montage-task-4whr6
+Workflow 'montage-task-4whr6' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:236
+:----------
+i:36
+Name:                montage-task-45d2q
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 08:59:11 +0800 (now)
+Progress:            
+:montage-task-45d2q
+Workflow 'montage-task-45d2q' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:236
+:----------
+i:37
+Name:                montage-task-9tcvw
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:03:07 +0800 (now)
+Progress:            
+:montage-task-9tcvw
+Workflow 'montage-task-9tcvw' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:216
+:----------
+i:38
+Name:                montage-task-x46v7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:06:43 +0800 (1 second ago)
+Progress:            
+:montage-task-x46v7
+Workflow 'montage-task-x46v7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:221
+:----------
+i:39
+Name:                montage-task-b4k6h
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:10:24 +0800 (now)
+Progress:            
+:montage-task-b4k6h
+Workflow 'montage-task-b4k6h' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:232
+:----------
+i:40
+Name:                montage-task-fm5xf
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:14:16 +0800 (now)
+Progress:            
+:montage-task-fm5xf
+Workflow 'montage-task-fm5xf' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:218
+:----------
+i:41
+Name:                montage-task-mjqj2
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:17:54 +0800 (now)
+Progress:            
+:montage-task-mjqj2
+Workflow 'montage-task-mjqj2' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:242
+:----------
+i:42
+Name:                montage-task-gpz7p
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:21:56 +0800 (now)
+Progress:            
+:montage-task-gpz7p
+Workflow 'montage-task-gpz7p' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:226
+:----------
+i:43
+Name:                montage-task-xq72t
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:25:42 +0800 (now)
+Progress:            
+:montage-task-xq72t
+Workflow 'montage-task-xq72t' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:224
+:----------
+i:44
+Name:                montage-task-8slfc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:29:26 +0800 (now)
+Progress:            
+:montage-task-8slfc
+Workflow 'montage-task-8slfc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:225
+:----------
+i:45
+Name:                montage-task-s6fsl
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:33:11 +0800 (now)
+Progress:            
+:montage-task-s6fsl
+Workflow 'montage-task-s6fsl' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:233
+:----------
+i:46
+Name:                montage-task-q7m5f
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:37:04 +0800 (now)
+Progress:            
+:montage-task-q7m5f
+Workflow 'montage-task-q7m5f' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:232
+:----------
+i:47
+Name:                montage-task-st4mh
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:40:57 +0800 (now)
+Progress:            
+:montage-task-st4mh
+Workflow 'montage-task-st4mh' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:217
+:----------
+i:48
+Name:                montage-task-r6nw4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:44:33 +0800 (now)
+Progress:            
+:montage-task-r6nw4
+Workflow 'montage-task-r6nw4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:230
+:----------
+i:49
+Name:                montage-task-vx62w
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:48:23 +0800 (now)
+Progress:            
+:montage-task-vx62w
+Workflow 'montage-task-vx62w' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:231
+:----------
+i:50
+Name:                montage-task-cfqk4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:52:14 +0800 (now)
+Progress:            
+:montage-task-cfqk4
+Workflow 'montage-task-cfqk4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:229
+:----------
+i:51
+Name:                montage-task-kg6tl
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 09:56:03 +0800 (now)
+Progress:            
+:montage-task-kg6tl
+Workflow 'montage-task-kg6tl' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:255
+:----------
+i:52
+Name:                montage-task-8jcml
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:00:18 +0800 (now)
+Progress:            
+:montage-task-8jcml
+Workflow 'montage-task-8jcml' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:234
+:----------
+i:53
+Name:                montage-task-lhhzb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:04:12 +0800 (now)
+Progress:            
+:montage-task-lhhzb
+Workflow 'montage-task-lhhzb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:221
+:----------
+i:54
+Name:                montage-task-c2pcj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:07:53 +0800 (now)
+Progress:            
+:montage-task-c2pcj
+Workflow 'montage-task-c2pcj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:224
+:----------
+i:55
+Name:                montage-task-2wqt7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:11:37 +0800 (now)
+Progress:            
+:montage-task-2wqt7
+Workflow 'montage-task-2wqt7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:245
+:----------
+i:56
+Name:                montage-task-zvvls
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:15:42 +0800 (now)
+Progress:            
+:montage-task-zvvls
+Workflow 'montage-task-zvvls' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:256
+:----------
+i:57
+Name:                montage-task-vtn7s
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:19:58 +0800 (1 second ago)
+Progress:            
+:montage-task-vtn7s
+Workflow 'montage-task-vtn7s' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:239
+:----------
+i:58
+Name:                montage-task-b67gh
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:23:57 +0800 (now)
+Progress:            
+:montage-task-b67gh
+Workflow 'montage-task-b67gh' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:250
+:----------
+i:59
+Name:                montage-task-jc7rf
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:28:08 +0800 (now)
+Progress:            
+:montage-task-jc7rf
+Workflow 'montage-task-jc7rf' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:221
+:----------
+i:60
+Name:                montage-task-2skcq
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:31:48 +0800 (now)
+Progress:            
+:montage-task-2skcq
+Workflow 'montage-task-2skcq' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:233
+:----------
+i:61
+Name:                montage-task-7wh8v
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:35:41 +0800 (now)
+Progress:            
+:montage-task-7wh8v
+Workflow 'montage-task-7wh8v' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:227
+:----------
+i:62
+Name:                montage-task-rg5tp
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:39:28 +0800 (now)
+Progress:            
+:montage-task-rg5tp
+Workflow 'montage-task-rg5tp' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:227
+:----------
+i:63
+Name:                montage-task-w4kmk
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:43:15 +0800 (now)
+Progress:            
+:montage-task-w4kmk
+Workflow 'montage-task-w4kmk' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:249
+:----------
+i:64
+Name:                montage-task-8mbhp
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:47:24 +0800 (now)
+Progress:            
+:montage-task-8mbhp
+Workflow 'montage-task-8mbhp' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:232
+:----------
+i:65
+Name:                montage-task-hk6cq
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:51:16 +0800 (now)
+Progress:            
+:montage-task-hk6cq
+Workflow 'montage-task-hk6cq' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:228
+:----------
+i:66
+Name:                montage-task-fpqzj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:55:04 +0800 (now)
+Progress:            
+:montage-task-fpqzj
+Workflow 'montage-task-fpqzj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:224
+:----------
+i:67
+Name:                montage-task-n725x
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 10:58:48 +0800 (now)
+Progress:            
+:montage-task-n725x
+Workflow 'montage-task-n725x' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:240
+:----------
+i:68
+Name:                montage-task-hsf5w
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:02:48 +0800 (now)
+Progress:            
+:montage-task-hsf5w
+Workflow 'montage-task-hsf5w' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:209
+:----------
+i:69
+Name:                montage-task-74hn9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:06:17 +0800 (now)
+Progress:            
+:montage-task-74hn9
+Workflow 'montage-task-74hn9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:228
+:----------
+i:70
+Name:                montage-task-sjqbp
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:10:05 +0800 (now)
+Progress:            
+:montage-task-sjqbp
+Workflow 'montage-task-sjqbp' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:228
+:----------
+i:71
+Name:                montage-task-bsh4k
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:13:53 +0800 (now)
+Progress:            
+:montage-task-bsh4k
+Workflow 'montage-task-bsh4k' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:218
+:----------
+i:72
+Name:                montage-task-5nln9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:17:31 +0800 (now)
+Progress:            
+:montage-task-5nln9
+Workflow 'montage-task-5nln9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:230
+:----------
+i:73
+Name:                montage-task-fs8c5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:21:21 +0800 (now)
+Progress:            
+:montage-task-fs8c5
+Workflow 'montage-task-fs8c5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:223
+:----------
+i:74
+Name:                montage-task-mljgj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:25:04 +0800 (now)
+Progress:            
+:montage-task-mljgj
+Workflow 'montage-task-mljgj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:228
+:----------
+i:75
+Name:                montage-task-rrmv4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:28:52 +0800 (now)
+Progress:            
+:montage-task-rrmv4
+Workflow 'montage-task-rrmv4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:225
+:----------
+i:76
+Name:                montage-task-fzddb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:32:37 +0800 (now)
+Progress:            
+:montage-task-fzddb
+Workflow 'montage-task-fzddb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:218
+:----------
+i:77
+Name:                montage-task-gqhv4
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:36:15 +0800 (now)
+Progress:            
+:montage-task-gqhv4
+Workflow 'montage-task-gqhv4' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:227
+:----------
+i:78
+Name:                montage-task-9qlvv
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:40:02 +0800 (now)
+Progress:            
+:montage-task-9qlvv
+Workflow 'montage-task-9qlvv' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:208
+:----------
+i:79
+Name:                montage-task-4kpgw
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:43:30 +0800 (now)
+Progress:            
+:montage-task-4kpgw
+Workflow 'montage-task-4kpgw' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:209
+:----------
+i:80
+Name:                montage-task-zp6wz
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:46:59 +0800 (now)
+Progress:            
+:montage-task-zp6wz
+Workflow 'montage-task-zp6wz' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:234
+:----------
+i:81
+Name:                montage-task-5hq7s
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:50:53 +0800 (now)
+Progress:            
+:montage-task-5hq7s
+Workflow 'montage-task-5hq7s' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:227
+:----------
+i:82
+Name:                montage-task-xz8n5
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:54:40 +0800 (now)
+Progress:            
+:montage-task-xz8n5
+Workflow 'montage-task-xz8n5' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:231
+:----------
+i:83
+Name:                montage-task-gfj9b
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 11:58:31 +0800 (now)
+Progress:            
+:montage-task-gfj9b
+Workflow 'montage-task-gfj9b' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:220
+:----------
+i:84
+Name:                montage-task-kb6lf
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:02:11 +0800 (now)
+Progress:            
+:montage-task-kb6lf
+Workflow 'montage-task-kb6lf' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:235
+:----------
+i:85
+Name:                montage-task-b8frp
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:06:06 +0800 (now)
+Progress:            
+:montage-task-b8frp
+Workflow 'montage-task-b8frp' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:246
+:----------
+i:86
+Name:                montage-task-5j96c
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:10:12 +0800 (now)
+Progress:            
+:montage-task-5j96c
+Workflow 'montage-task-5j96c' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:245
+:----------
+i:87
+Name:                montage-task-8nskj
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:14:17 +0800 (now)
+Progress:            
+:montage-task-8nskj
+Workflow 'montage-task-8nskj' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:220
+:----------
+i:88
+Name:                montage-task-9gqbz
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:17:57 +0800 (now)
+Progress:            
+:montage-task-9gqbz
+Workflow 'montage-task-9gqbz' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:239
+:----------
+i:89
+Name:                montage-task-8rxqc
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:21:56 +0800 (now)
+Progress:            
+:montage-task-8rxqc
+Workflow 'montage-task-8rxqc' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:239
+:----------
+i:90
+Name:                montage-task-mc272
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:25:55 +0800 (now)
+Progress:            
+:montage-task-mc272
+Workflow 'montage-task-mc272' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:224
+:----------
+i:91
+Name:                montage-task-9jrr7
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:29:39 +0800 (now)
+Progress:            
+:montage-task-9jrr7
+Workflow 'montage-task-9jrr7' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:219
+:----------
+i:92
+Name:                montage-task-qrff9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:33:18 +0800 (now)
+Progress:            
+:montage-task-qrff9
+Workflow 'montage-task-qrff9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:227
+:----------
+i:93
+Name:                montage-task-pthb9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:37:05 +0800 (now)
+Progress:            
+:montage-task-pthb9
+Workflow 'montage-task-pthb9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:226
+:----------
+i:94
+Name:                montage-task-ph9mb
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:40:51 +0800 (now)
+Progress:            
+:montage-task-ph9mb
+Workflow 'montage-task-ph9mb' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:220
+:----------
+i:95
+Name:                montage-task-smgz8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:44:31 +0800 (now)
+Progress:            
+:montage-task-smgz8
+Workflow 'montage-task-smgz8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:236
+:----------
+i:96
+Name:                montage-task-gwrlk
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:48:27 +0800 (now)
+Progress:            
+:montage-task-gwrlk
+Workflow 'montage-task-gwrlk' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:228
+:----------
+i:97
+Name:                montage-task-kfnv9
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:52:15 +0800 (now)
+Progress:            
+:montage-task-kfnv9
+Workflow 'montage-task-kfnv9' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:241
+:----------
+i:98
+Name:                montage-task-xxv9l
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 12:56:16 +0800 (now)
+Progress:            
+:montage-task-xxv9l
+Workflow 'montage-task-xxv9l' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:250
+:----------
+i:99
+Name:                montage-task-p2wk8
+Namespace:           argo
+ServiceAccount:      default
+Status:              Pending
+Created:             Thu Dec 02 13:00:27 +0800 (now)
+Progress:            
+:montage-task-p2wk8
+Workflow 'montage-task-p2wk8' deleted
+:delete argo workflow pod successful.
+:It's over.
+workflowcycle:222
+:172.28.0.106
+:copy resourceUsage's log successful.
+
+-------------------------------------------------------- 
+username: root  password: bit123  port: 22  timeout=
+command: 
+Remote exec command script
+--------------------------------------------------------
+
+172.28.0.103
+172.28.0.104
+172.28.0.105
+172.28.0.106
+172.28.0.107
+172.28.0.108
