@@ -36,7 +36,7 @@ steps:
 ##### b. Select workflow and do a few tweaks for configuration files
 
 Update the number of 'ClusterRoleBinding' field of the 'rbac-argo.yaml.bak' in line with the number of cluster nodes, and 
-set the field of 'system:node' to "****". The character "*" represents the node number.
+set the field of 'system:node' to "****". The character "\*" represents the node number.
 Update the field 'node.num' to the number of cluster nodes. The field 'gather.time' selects 
   the sample cycle to 500 milliseconds in default. 
 In 'resourceUsage.yaml.bak', the field 'node.name' and field 'gather.time' are defined as the same as above.
@@ -84,7 +84,7 @@ this script automatically cleans up each module and obtains various log files.
 
 3. ./experiment/KubeAdaptor_test
 
-The directory './deploy' includes the the Yaml files corresponding to KubeAdaptor, RBAC, resource usage rate, Nfs, and workflow injection module.
+The directory './deploy' includes the Yaml files corresponding to KubeAdaptor, RBAC, resource usage rate, Nfs, and workflow injection module.
 We use the Configmap method in Yaml file to inject workflow information (dependency.json) into the container of the workflow injection module.
 Refer to './deploy/buildInjector1.yaml' for details.
 
