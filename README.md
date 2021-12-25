@@ -23,6 +23,7 @@ Note that all the image addresses in the following YAML file need to remove the 
 'harbor.cloudcontrolsystems.cn/'. In this way, your image address becomes the Docker Hub address.
 In addition, you need to deploy the NFS server service into your cluster in advance so that each node is able to
  mount the Master node's shared directory.
+If you have any questions during the operation, please do not hesitate to contact uzz_scg@163.com.
 
 1. ./experiment/argo_test
 
