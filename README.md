@@ -59,31 +59,32 @@ You can list the testing workflow through the Argo binary tool.
 
 ##### d. ./clean.sh
 
-Clear up RBAC permission and resource gathering module.
+Clear up the RBAC permission and resource gathering module.
 
 2. ./experiment/batch_job
 
 We define four real-world workflows composed of batch YAML files. Take the cybershake workflow as an example.
 In the './experiment/batch_job/cybershake' directory,  the 'deleteLog.sh' takes care of cleaning up 
-various log files, wfScheduler.sh is responsible for deploying each batch workflow task topologically.
-We define the YAML file of each batch workflow task through the 'PriorityClass' method.
+various log files, the 'wfScheduler.sh' is responsible for deploying each batch workflow task topologically.
+We define the YAML file of a batch of workflow tasks through the 'PriorityClass' method.
 Before running this workflow, you need to update the 'rbac-deploy.yaml' and 'resourceUsage.yaml'.
-The field 'system:node' of 'rbac.deploy.yaml' corresponds to each cluster node' IP.
-The 'resourceUsage.yaml' file defines the field 'node.num' and field 'gather.time' in accordance with
-'resourceUsage.yaml.bak' of Argo submission method.
+The field 'system:node' of 'rbac.deploy.yaml' corresponds to the respective node' IP.
+The 'resourceUsage.yaml' file defines the field 'node.num' and field 'gather.time' in line with
+the 'resourceUsage.yaml.bak' file of the Argo submission method.
 
 steps:
 
 ##### ./wfScheduler.sh
 
-The shell script is responsible for deploying the RBAC and resource gathering module and running this 
-real-world workflow. You can set the for loop as many times as you want. 
-In the end, this script automatically clean up each module and obtain various of log files.
+The shell script is responsible for deploying the RBAC and resource gathering module and 
+running this real-world workflow. 
+You can set the for loop as many times as you want. In the end, 
+this script automatically cleans up each module and obtains various log files.
 
 3. ./experiment/KubeAdaptor_test
 
-The directory './deploy' includes the Yaml files corresponding to KubeAdaptor, RBAC, resource usage rate, Nfs, and workflow injection module.
-We use Configmap method in Yaml file to inject workflow information (dependency.json) into the container of workflow injection module.
+The directory './deploy' includes the the Yaml files corresponding to KubeAdaptor, RBAC, resource usage rate, Nfs, and workflow injection module.
+We use the Configmap method in Yaml file to inject workflow information (dependency.json) into the container of the workflow injection module.
 Refer to './deploy/buildInjector1.yaml' for details.
 
 steps:
@@ -103,30 +104,30 @@ During the workflow lifecycle, you can watch the execution states of workflow ta
 
 ##### c. ./clear.sh
 
-When the workflow is completed, you can run '.clear.sh' file to clean up the workflow information and obtain the log files.
+When the workflow is completed, you can run the '.clear.sh' file to clean up the workflow information and obtain the log files.
 
 4. ./experiment/no_ssh
    
-The 'no_ssh' directory takes care of unlocking ssh password between the cluster Master and the cluster nodes.
+The 'no_ssh' directory takes care of unlocking ssh passwords between the cluster Master and the cluster nodes.
 
 ###./resourceUsage
 
-This directory includes the source codes of resource gathering module.
-You can build Docker image by 'Dockerfile' file or pull the image of this module from docker Hub.
+This directory includes the source codes of the resource gathering module.
+You can build the Docker image by the 'Dockerfile' file or pull the image of this module from the Docker Hub.
 
 'docker pull shanchenggang/resource-usage:v1.0'
 
 ###./TaskContainerBuilder
 
 This directory includes the source codes of CWB.
-You can build Docker image by 'Dockerfile' file or pull the image of this module from docker Hub.
+You can build the Docker image by the 'Dockerfile' file or pull the image of this module from docker Hub.
 
 'docker pull shanchenggang/task-container-builder:v6.0'
 
 ###./usage_deploy
 
-This directory includes the deployment file of resource gather module.
-Noting that './experiment' directory has included this deployment file for three submission approaches.
+This directory includes the deployment file of the resource gather module.
+Note that the './experiment' directory has included this deployment file for three submission approaches.
 
 ###./WorkflowInjector
 
