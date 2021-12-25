@@ -7,6 +7,8 @@ cd ..
 kubectl apply -f ./deploy/rbac-argo.yaml
 kubectl apply -f ./deploy/resourceUsage.yaml
 
+sleeps 5s
+
 for((i=0;i<=99;i++))
 do
 echo ":----------"
