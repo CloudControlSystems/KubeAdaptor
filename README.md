@@ -9,17 +9,20 @@ engineering applications, please be sure to protect the copyright and indicate a
 ###./experiment
 
 This directory includes Argo, Batch Job, and KubeAdaptor workflow submission deployment files.
-The 'no_ssh' directory takes care of unlocking ssh password between the cluster Master and 
+The 'no_ssh' directory takes care of unlocking ssh passwords between the cluster Master and 
 the cluster nodes.
-Three submission approaches contain resource gathering module, respectively.
-You can get the 'usage.txt' , 'log.txt' and 'exp.txt' files through our designed automatic scripts.
-The automatic script file has the abilities of capturing the Master IP and obtaining the other nodes' IP.
-Our experimental environment consists of one Master and six nodes. In K8s cluster, node name is identified by node's IP.
+Three submission approaches contain resource gathering modules, respectively.
+You can get the 'usage.txt', 'log.txt', and 'exp.txt' files through our designed automatic scripts.
+The automatic script file has the ability to capture the Master IP and obtain the other nodes' IP.
+Our experimental environment consists of one Master and six nodes. In the K8s cluster, the node name 
+is identified by the node's IP.
 
 OS version: Ubuntu 20.4/CentOS Linux release 7.8, Kubernetes: v1.18.6/v1.19.6, Docker: 18.09.6.
 
-Note that all the image addresses in the following yaml file need to remove the string 
-'harbor.cloudcontrolsystems.cn/'. In this way, your image address become the Docker Hub address.
+Note that all the image addresses in the following YAML file need to remove the string 
+'harbor.cloudcontrolsystems.cn/'. In this way, your image address becomes the Docker Hub address.
+In addition, you need to deploy the NFS server service into your cluster in advance so that each node is able to
+ mount the Master node's shared directory.
 
 1. ./experiment/argo_test
 
@@ -31,7 +34,7 @@ steps:
 
 ##### b. Select workflow and do a few tweaks for configuration files
 
-Update the number of 'ClusterRoleBinding' of the 'rbac-argo.yaml.bak' in line with the number of cluster nodes, and 
+Update the number of 'ClusterRoleBinding' field of the 'rbac-argo.yaml.bak' in line with the number of cluster nodes, and 
 set the field of 'system:node' to '****'. The character '*' represents the node number.
 Update the field 'node.num' to the number of cluster nodes. The field 'gather.time' selects 
   the sample cycle to 500 milliseconds in default. 
@@ -42,11 +45,11 @@ Then, you can select one workflow to be tested in 'edit.sh' file, such as the co
 
 ##### c. ./deploy.sh
 
-This shell script file is responsible for deploying RBAC permission and resource gathering module.
+This shell script file is responsible for deploying the RBAC permission and resource gathering module.
 After the resource gathering module pod has launched, this script consecutively
-submits one workflow for 100 times through argo binary tools. In the end, we can obtain various of log files.
+submits one workflow 100 times through Argo binary tools. In the end, we can obtain various log files.
 
-You can list the testing workflow through Argo binary tool.
+You can list the testing workflow through the Argo binary tool.
 
   argo list -n argo
 
@@ -60,10 +63,10 @@ Clear up RBAC permission and resource gathering module.
 
 2. ./experiment/batch_job
 
-We define four real-world workflows composed of batch yaml files. Take the cybershake workflow as example.
-In './experiment/batch_job/cybershake' directory,  the 'deleteLog.sh' take cares of cleaning up 
-various log files, wfScheduler.sh is responsible for deploying each batch workflow tasks topologically.
-We define the yaml file of each batch workflow tasks through 'PriorityClass' method.
+We define four real-world workflows composed of batch YAML files. Take the cybershake workflow as an example.
+In the './experiment/batch_job/cybershake' directory,  the 'deleteLog.sh' takes care of cleaning up 
+various log files, wfScheduler.sh is responsible for deploying each batch workflow task topologically.
+We define the YAML file of each batch workflow task through the 'PriorityClass' method.
 Before running this workflow, you need to update the 'rbac-deploy.yaml' and 'resourceUsage.yaml'.
 The field 'system:node' of 'rbac.deploy.yaml' corresponds to each cluster node' IP.
 The 'resourceUsage.yaml' file defines the field 'node.num' and field 'gather.time' in accordance with
