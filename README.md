@@ -75,7 +75,7 @@ steps:
 
 The shell script is responsible for deploying the RBAC and resource gathering module and running this 
 real-world workflow. You can set the for loop as many times as you want. 
-In the end, we can obtain various of log files.
+In the end, this script automatically clean up each module and obtain various of log files.
 
 3. ./experiment/KubeAdaptor_test
 
@@ -118,7 +118,7 @@ You can build Docker image by 'Dockerfile' file or pull the image of this module
 This directory includes the source codes of CWB.
 You can build Docker image by 'Dockerfile' file or pull the image of this module from docker Hub.
 
-'docker pull shanchenggang/task-container-builder:v5.0'
+'docker pull shanchenggang/task-container-builder:v6.0'
 
 ###./usage_deploy
 
@@ -130,4 +130,4 @@ Noting that './experiment' directory has included this deployment file for three
 This directory includes the source codes of the workflow injection module.
 You can build Docker image by 'Dockerfile' file or pull the image of this module from docker Hub.
 
-'docker pull shanchenggang/workflow-injector:v5.0'
+'docker pull shanchenggang/workflow-injector:v6.0'
