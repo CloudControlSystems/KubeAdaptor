@@ -36,11 +36,11 @@ steps:
 ##### b. Select workflow and do a few tweaks for configuration files
 
 Update the number of 'ClusterRoleBinding' field of the 'rbac-argo.yaml.bak' in line with the number of cluster nodes, and 
-set the field of 'system:node' to '****'. The character '*' represents the node number.
+set the field of 'system:node' to "****". The character "*" represents the node number.
 Update the field 'node.num' to the number of cluster nodes. The field 'gather.time' selects 
   the sample cycle to 500 milliseconds in default. 
 In 'resourceUsage.yaml.bak', the field 'node.name' and field 'gather.time' are defined as the same as above.
-Each workflow definition corresponds to the respective 'workflowName.yaml.bak' file.
+Each workflow definition corresponds to the respective '$workflowName.yaml.bak' file.
 
 Then, you can select one workflow to be tested in 'edit.sh' file, such as the command 'cp ./Montage.yaml.bak Montage.yaml'.
 
@@ -120,8 +120,8 @@ You can build the Docker image by the 'Dockerfile' file or pull the image of thi
 
 ###./TaskContainerBuilder
 
-This directory includes the source codes of CWB.
-You can build the Docker image by the 'Dockerfile' file or pull the image of this module from docker Hub.
+This directory includes the source codes of KubeAdaptor.
+You can build the Docker image by the 'Dockerfile' file or pull the image of this module from Docker Hub.
 
 'docker pull shanchenggang/task-container-builder:v6.0'
 
@@ -133,6 +133,6 @@ Note that the './experiment' directory has included this deployment file for thr
 ###./WorkflowInjector
 
 This directory includes the source codes of the workflow injection module.
-You can build Docker image by 'Dockerfile' file or pull the image of this module from docker Hub.
+You can build Docker image by 'Dockerfile' file or pull the image of this module from Docker Hub.
 
 'docker pull shanchenggang/workflow-injector:v6.0'
