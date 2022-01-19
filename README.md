@@ -55,11 +55,11 @@ After the resource gathering module pod has launched, this script consecutively
 submits one workflow 100 times through Argo binary tools. In the end, we can obtain various log files.
   
   You can list the testing workflow through the Argo binary tool.
-```console
+  ```console
   argo list -n argo
   argo get -n argo @taskName
   argo logs -n argo @taskName
-```
+  ```
 * Run `./clean.sh`
 
   Clear up the RBAC permission and resource gathering module.
