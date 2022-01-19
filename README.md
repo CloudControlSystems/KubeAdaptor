@@ -107,7 +107,7 @@ During the workflow lifecycle, you can watch the execution states of workflow ta
   ```
 * Run `./clear.sh`
 
-  When the workflow is completed, you can run the `.clear.sh` file to clean up the workflow information and obtain the log files.
+  When the workflow is completed, you can run the `./clear.sh` file to clean up the workflow information and obtain the log files.
 
 ### ./experiment/no_ssh
    
@@ -135,7 +135,7 @@ Note that the `./experiment` directory has included this deployment file for thr
 ### ./WorkflowInjector
 
 This directory includes the source codes of the workflow injection module.
-You can build Docker image by 'Dockerfile' file or pull the image of this module from Docker Hub.
+You can build Docker image by `Dockerfile` file or pull the image of this module from Docker Hub.
 ```console
 docker pull shanchenggang/workflow-injector:v6.0
 ```
