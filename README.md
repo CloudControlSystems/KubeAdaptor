@@ -29,7 +29,7 @@ In addition, you need to deploy the `NFS server service` into your cluster in ad
  mount the Master node's shared directory.
 If you have any questions during the operation, please do not hesitate to contact `uzz_scg@163.com`.
 
-#### ./experiment/argo_test
+#### 1. ./experiment/argo_test
 
 **steps:**
 
@@ -64,7 +64,7 @@ submits one workflow 100 times through Argo binary tools. In the end, we can obt
 
   Clear up the RBAC permission and resource gathering module.
 
-#### ./experiment/batch_job
+#### 2. ./experiment/batch_job
 
 We define four real-world workflows composed of batch YAML files. Take the cybershake workflow as an example.
 In the `./experiment/batch_job/cybershake` directory,  the `deleteLog.sh` takes care of cleaning up 
@@ -84,7 +84,7 @@ running this real-world workflow.
 You can set the for loop as many times as you want. In the end, 
 this script automatically cleans up each module and obtains various log files.
 
-#### ./experiment/KubeAdaptor_test
+#### 3. ./experiment/KubeAdaptor_test
 
 The directory `./deploy` includes the Yaml files corresponding to KubeAdaptor, RBAC, resource usage rate, Nfs, and workflow injection module.
 We use the Configmap method in Yaml file to inject workflow information (dependency.json) into the container of the workflow injection module.
