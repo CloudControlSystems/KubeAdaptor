@@ -3,10 +3,12 @@ We have open-sourced the KubeAdaptor, which can be incorporated into workflow sy
 You can deploy KubeAdaptor in one-button mode with just a few tweaks to your systematic configuration file. 
 We welcome you to download, learn, and work together to maintain the KubeAdaptor with us. If you use it for scientific research and 
 engineering applications, please be sure to protect the copyright and indicate authors and source.
-![Architecture diagram of the KubeAdaptor](images/kubeadaptor-arch.png "This diagram is an abstraction of the logical relationships of the
+![Architecture diagram of the KubeAdaptor](images/kubeadaptor-arch.png "logical relationships of the proposed KubeAdaptor.")
+This diagram is an abstraction of the logical relationships of the
 proposed KubeAdaptor. The workflow injection module is independent of KubeAdaptor and responsible for generating
 workflows and simulating workflow input. The event trigger mechanism is embodied as the interaction between state
-tracking and resource monitoring module, workflow container destruction module, and workflow input interface.")
+tracking and resource monitoring module, workflow container destruction module, and workflow input interface.
+
 ## Resource description
 
 ### ./experiment
