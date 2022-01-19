@@ -103,7 +103,7 @@ updates the other corresponding files. Then it copies `$workflowName.yaml.bak` t
 The `deploy.sh` file includes a series of `Kubectl` commands.
 During the workflow lifecycle, you can watch the execution states of workflow tasks. The following is the operation command.
   ```console
-  'kubectl get pods -A --watch -o wide'
+  kubectl get pods -A --watch -o wide
   ```
 * Run `./clear.sh`
 
