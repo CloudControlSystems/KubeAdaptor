@@ -4,10 +4,11 @@ You can deploy KubeAdaptor in one-button mode with just a few tweaks to your sys
 We welcome you to download, learn, and work together to maintain the KubeAdaptor with us. If you use it for scientific research and 
 engineering applications, please be sure to protect the copyright and indicate authors and source.
 ![Architecture diagram of the KubeAdaptor](images/kubeadaptor-arch.png "logical relationships of the proposed KubeAdaptor.")
-This diagram is an abstraction of the logical relationships of the
+
+*This diagram is an abstraction of the logical relationships of the
 proposed KubeAdaptor. The workflow injection module is independent of KubeAdaptor and responsible for generating
 workflows and simulating workflow input. The event trigger mechanism is embodied as the interaction between state
-tracking and resource monitoring module, workflow container destruction module, and workflow input interface.
+tracking and resource monitoring module, workflow container destruction module, and workflow input interface.*
 
 ## Resource description
 
@@ -33,6 +34,8 @@ Note that all the image addresses in the following YAML file need to remove the 
 In addition, you need to deploy the `NFS server service` into your cluster in advance so that each node is able to
  mount the Master node's shared directory.
 If you have any questions during the operation, please do not hesitate to contact `uzz_scg@163.com`.
+![Four real-world workflows](images/four-workflow.png "four-workflow")
+*The picture above is the topology diagram of four real-world workflow applications.*
 
 #### 1. ./experiment/argo_test
 
