@@ -48,11 +48,11 @@ If you have any questions during the operation, please do not hesitate to contac
 * Select workflow and do a few tweaks for configuration files
 
   Update the number of `ClusterRoleBinding` field of the `rbac-argo.yaml.bak` in line with the number of cluster nodes, and 
-set the field of `system:node` to `****`. The character `\*` represents the node number.
-Update the field `node.num` to the number of cluster nodes. The field `gather.time` selects 
+set the field of `subjects.name` to `system:node:*.*.*.*`. The character `*` represents the node number. For example,
+  `name: system:node:2.2.2.2`.
+  In `resourceUsage.yaml.bak`, we need update the field `node.num` to the number of cluster nodes. The field `gather.time` selects 
   the sample cycle to 500 milliseconds in default. 
-In `resourceUsage.yaml.bak`, the field `node.name` and field `gather.time` are defined as the same as above.
-Each workflow definition corresponds to the respective `$workflowName.yaml.bak` file.
+  Each workflow definition corresponds to the respective `$workflowName.yaml.bak` file.
 
   Then, you can select one workflow to be tested in `edit.sh` file, such as the command `cp ./Montage.yaml.bak Montage.yaml`.
 
@@ -79,7 +79,8 @@ In the `./experiment/batch_job/cybershake` directory,  the `deleteLog.sh` takes 
 various log files, the `wfScheduler.sh` is responsible for deploying each batch workflow task topologically.
 We define the YAML file of a batch of workflow tasks through the `PriorityClass` method.
 Before running this workflow, you need to update the `rbac-deploy.yaml` and `resourceUsage.yaml`.
-The field `system:node` of `rbac.deploy.yaml` corresponds to the respective node' IP.
+The field `subjects.name` of `rbac.deploy.yaml` corresponds to `system:node:$nodeIP`. For example, 
+`name: system:node:172.28.0.106`.
 The `resourceUsage.yaml` file defines the field `node.num` and field `gather.time` in line with
 the `resourceUsage.yaml.bak` file of the Argo submission method.
 
